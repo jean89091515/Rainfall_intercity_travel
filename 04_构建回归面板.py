@@ -3,7 +3,8 @@
   model_city.parquet  城市-日：总流出、总流入，本地降雨分档，以及“目的地/来源地加权降雨”控制
   model_od.parquet    OD-日：稳定核心连接的流量，起终点降雨分档（绝对/相对）、前导滞后、距离档、气候背景，
                       以及 02c 的 CPC 观测格点：日均气温分档 tb、雨量计降水分档 abc 与前 7 日累计分档 c7c；
-                      v0.2 的安慰剂检验用：小雨前导滞后 m01_*、多期移位降雨分档 pb_*、七大地理区 rg7_o / rg7_d
+                      v0.2 的安慰剂检验用：小雨前导滞后 m01_*、多期移位降雨分档 pb_*、七大地理区 rg7_o / rg7_d；
+                      2026-10-27 的盲审补充：伙伴降雨溢出 wdx_* / wox_*（意见 2），连线中点城市的降雨分档 ab_m（意见 5）
 
 剔除降雨代表性差的单元：补位站点距单元几何中心 > 100 km（三沙市，约 1094 km）。
 """
@@ -25,6 +26,7 @@ CUM7_BINS = [0, 10, 25, 50, 100, np.inf]
 TEMP_BINS = [-np.inf, -10, 0, 10, 15, 20, 25, 30, np.inf]
 SNOW_TMEAN_C = 2     # 日均气温低于 2 °C 的降水视为可能是雪（常用的雨雪分相气温阈值在 1-2 °C）
 MAX_FILL_KM = 100
+PARTNER_VARS = ("m01_L0", "m10_L0", "m25_L0")   # 伙伴城市当天小雨、中雨、≥25 mm
 
 
 def day_type(dates: pd.Index) -> pd.Series:
@@ -80,6 +82,65 @@ def city_cpc():
     return c[["code", "date", "tb", "abc", "c7c", "sn", "sn0", "sn4"]].astype({"tb": "int8", "abc": "int8", "c7c": "int8"})
 
 
+def lookup(mat: pd.DataFrame, codes: pd.Series, dates: pd.Series) -> np.ndarray:
+    """从“日期 × 城市”矩阵按 (城市, 日期) 取值，免去对 2878 万行做 merge；矩阵里没有的城市或日期记 NaN。"""
+    i, j = mat.index.get_indexer(dates), mat.columns.get_indexer(codes)
+    out = mat.to_numpy(dtype="float64")[i, j]
+    out[(i < 0) | (j < 0)] = np.nan
+    return out
+
+
+def partner_shares(w: pd.DataFrame, rain: pd.DataFrame):
+    """伙伴城市的下雨份额。w 为每条连接的主样本平均流量（o, d, w）。
+    wd_*：城市作为起点，其目的地按流量加权、当天处于该雨档的份额；wo_*：城市作为终点，其来源地的份额。
+    返回 {列名: 日期 × 城市 矩阵}，以及每条连接占起点流出的比例 w_out、占终点流入的比例 w_in。"""
+    mats, frac = {}, w[["o", "d"]].copy()
+    for side, other, name in (("o", "d", "wd"), ("d", "o", "wo")):
+        ww = w.assign(w=w["w"] / w.groupby(side)["w"].transform("sum"))
+        frac["w_out" if side == "o" else "w_in"] = ww["w"].to_numpy()
+        for v in PARTNER_VARS:
+            pv = rain.pivot(index="date", columns="code", values=v)
+            W = ww.pivot(index=other, columns=side, values="w").reindex(index=pv.columns).fillna(0)
+            mats[f"{name}_{v[:3]}"] = pd.DataFrame(pv.fillna(0).to_numpy() @ W.to_numpy(), index=pv.index, columns=W.columns)
+    return mats, frac
+
+
+def add_spillover(p: pd.DataFrame, mats: dict, frac: pd.DataFrame) -> pd.DataFrame:
+    """OD 层级的溢出控制（盲审意见 2）：起点其余目的地（不含本连接终点）的下雨份额 wdx_*，终点其余来源地
+    （不含本连接起点）的下雨份额 wox_*。若 OD 流量 = 起点规模 × 目的地占比，终点下雨压低本连接占比时，
+    同一起点其余连接的占比会被动抬高；这两组变量吸收这种机械溢出。"""
+    f = p[["o", "d"]].merge(frac, on=["o", "d"], how="left")
+    for end, other, name, wcol in (("o", "d", "wd", "w_out"), ("d", "o", "wo", "w_in")):
+        wl = f[wcol].to_numpy()
+        den = 1 - wl
+        for v in PARTNER_VARS:
+            tot = lookup(mats[f"{name}_{v[:3]}"], p[end], p["date"])
+            own = wl * p[f"{v}_{other}"].to_numpy()
+            p[f"{name}x_{v[:3]}"] = np.where(den > 1e-9, (tot - own) / np.where(den > 1e-9, den, 1), 0).astype("float32")
+    return p
+
+
+def midpoint_city(u: pd.DataFrame, links: pd.DataFrame, ok: set, max_km: float = MAX_FILL_KM) -> pd.DataFrame:
+    """两端几何中心连线（大圆）的中点，以及离中点最近、且不是两端的城市（盲审意见 5 的沿线降水）。
+    最近城市超过 max_km 时记 -1。"""
+    xy = u.set_index("code")[["lat", "lon"]]
+
+    def vec(ll):
+        lat, lon = np.radians(ll[:, 0]), np.radians(ll[:, 1])
+        return np.stack([np.cos(lat) * np.cos(lon), np.cos(lat) * np.sin(lon), np.sin(lat)], axis=1)
+
+    m = vec(xy.loc[links["o"]].to_numpy()) + vec(xy.loc[links["d"]].to_numpy())
+    m /= np.linalg.norm(m, axis=1, keepdims=True)
+    cand = xy.loc[sorted(ok)]
+    codes = cand.index.to_numpy()
+    ang = np.arccos(np.clip(m @ vec(cand.to_numpy()).T, -1, 1))       # 连接 × 候选城市，弧度
+    ang[(codes[None, :] == links["o"].to_numpy()[:, None]) | (codes[None, :] == links["d"].to_numpy()[:, None])] = np.inf
+    k = ang.argmin(axis=1)
+    km = 6371.0 * ang[np.arange(len(k)), k]
+    return pd.DataFrame({"o": links["o"].to_numpy(), "d": links["d"].to_numpy(),
+                         "mid": np.where(km <= max_km, codes[k], -1).astype("int64"), "mid_km": km.astype("float32")})
+
+
 def add_typhoon(df: pd.DataFrame, key: str, suffix: str = "") -> pd.DataFrame:
     """并入 08_台风日标识.py 的台风影响日（tc500 / tc300，未受影响记 0）。"""
     path = PROC / "city_typhoon.parquet"
@@ -116,7 +177,11 @@ def main():
     # ---------- OD-日 ----------
     p = pd.read_parquet(PROC / "od_panel.parquet").rename(columns={"Date": "date"})
     p = p[p["o"].isin(ok) & p["d"].isin(ok)]
+    # 连接权重：主样本平均流量。城市层级的“目的地/来源地加权降雨”与 OD 层级的溢出控制都用它
+    w = p.groupby(["o", "d"])["flow"].mean().rename("w").reset_index()
+    mats, frac = partner_shares(w, rain)
     e = pd.read_parquet(PROC / "edges.parquet")[["o", "d", "dist_km", "dist_band"]]
+    e = e.merge(midpoint_city(u, w, ok), on=["o", "d"])
     p = p.merge(e, on=["o", "d"])
     p["dband"] = p["dist_band"].cat.codes.astype("int8")     # 0 <150 … 4 >1000
     keep = (["code", "date", "rain_mm", "ab", "rb", "c7", "cum7_mm"]
@@ -127,6 +192,11 @@ def main():
         p = p.merge(x.rename(columns={"code": end}), on=[end, "date"])
     for end in ("o", "d"):
         p = add_typhoon(p, end, f"_{end}")
+    p = add_spillover(p, mats, frac)
+    # 中点城市当天的降雨分档 ab_m 与易降雪日 sn*_m；没有 100 km 内中点城市的连接记 -1
+    for v in ["ab"] + [c for c in ("sn", "sn0", "sn4") if c in rain.columns]:
+        val = lookup(rain.pivot(index="date", columns="code", values=v), p["mid"], p["date"])
+        p[f"{v}_m"] = np.nan_to_num(val, nan=-1).astype("int8")
     ua = u.set_index("code")
     for end in ("o", "d"):
         p[f"clim_{end}"] = p[end].map(ua["clim_z"]).astype("float32")
@@ -141,7 +211,7 @@ def main():
     p["od_dow"] = (pd.factorize(od.astype("int64") * 10 + p["date"].dt.dayofweek)[0] + 1).astype("int32")
     p["date_id"] = p["date"].map(did).astype("int32")
     p["dtype"] = p["date"].map(day_type(dates)).astype("int8")
-    p = p.drop(columns=["date", "dist_band"]).astype({c: "float32" for c in ("rain_mm_o", "rain_mm_d", "dist_km", "cum7_mm_o", "cum7_mm_d")})
+    p = p.drop(columns=["date", "dist_band", "mid"]).astype({c: "float32" for c in ("rain_mm_o", "rain_mm_d", "dist_km", "cum7_mm_o", "cum7_mm_d")})
     p.to_parquet(PROC / "model_od.parquet", index=False)
     print(f"model_od: {len(p):,} 行，{p['od'].nunique():,} 条连接；距离档行数：",
           dict(zip(DIST_LABELS, np.bincount(p["dband"], minlength=5))))
@@ -149,18 +219,9 @@ def main():
     # ---------- 城市-日 ----------
     c = pd.read_parquet(PROC / "city_flow.parquet").rename(columns={"Date": "date"})
     c = add_typhoon(c[c["code"].isin(ok)].merge(rain, on=["code", "date"]), "code")
-    # 目的地加权降雨：i 的出行目的地按主样本平均流量加权，当天处于中雨、≥25 mm 的份额（流入同理按来源地加权）
-    core = pd.read_parquet(PROC / "od_panel.parquet")
-    core = core[core["o"].isin(ok) & core["d"].isin(ok)]
-    w = core.groupby(["o", "d"])["flow"].mean().rename("w").reset_index()
-    for side, other, name in (("o", "d", "wd"), ("d", "o", "wo")):
-        ww = w.assign(w=w["w"] / w.groupby(side)["w"].transform("sum"))
-        for v in ("m10_L0", "m25_L0"):
-            pv = rain.pivot(index="date", columns="code", values=v)
-            W = ww.pivot(index=other, columns=side, values="w").reindex(index=pv.columns).fillna(0)
-            share = pd.DataFrame(pv.fillna(0).to_numpy() @ W.to_numpy(), index=pv.index, columns=W.columns)
-            s = share.stack().rename(f"{name}_{v[:3]}").reset_index().rename(columns={side: "code"})
-            c = c.merge(s, on=["date", "code"], how="left")
+    # 目的地加权降雨：i 的出行目的地按主样本平均流量加权，当天处于小雨、中雨、≥25 mm 的份额（流入同理按来源地加权）
+    for k, m in mats.items():
+        c[k] = lookup(m, c["code"], c["date"])
     c["code_ym"] = (pd.factorize(c["code"].astype("int64") * 1000 + (c["date"].dt.year - 2020) * 12 + c["date"].dt.month)[0] + 1).astype("int32")
     c["code_dow"] = (pd.factorize(c["code"].astype("int64") * 10 + c["date"].dt.dayofweek)[0] + 1).astype("int32")
     c["date_id"] = c["date"].map(did).astype("int32")

@@ -451,6 +451,31 @@ if (run("H")) {
   save(fit_split(as.formula(paste("ln_flow ~", B, "|", FE)), x[dband <= 1], "dtype", "H5_非台风_300km内_日类型", cluster = CL, lean = TRUE))
   rm(x); gc()
 }
+# X：OD 占比的机械溢出（盲审意见 2）。若 OD 流量 = 起点规模 × 目的地占比，终点下雨压低本连接占比时，
+#    同一起点其余连接的占比会被动抬高，对照组受正向溢出。加入起点其余目的地、终点其余来源地当天小雨、中雨、
+#    ≥25 mm 的流量加权份额（04 的 wdx_*、wox_*，不含本连接的另一端）。溢出存在时这些系数为正，且起终点系数
+#    应明显变小；与同一样本的 T2 比较
+if (run("X")) {
+  sp <- as.vector(outer(c("wdx_", "wox_"), c("m01", "m10", "m25"), paste0))
+  x <- read_ntc(od_cols("ab_o", "ab_d", "c7_o", "c7_d", sp))
+  save(tidy(feols(as.formula(paste("ln_flow ~", B, "+", paste(sp, collapse = " + "), "|", FE)), x, cluster = CL, lean = TRUE),
+            "X1_非台风_伙伴降雨溢出"))
+  rm(x); gc()
+}
+# V：沿线降水（盲审意见 5）。距离衰减也可能来自路径暴露：长途时两端降雨只覆盖路程的一小段。
+#    在 300 km 以上的连接上加入两端连线中点最近城市（100 km 内、不含两端）的降雨分档 ab_m，按距离档分样本；
+#    同一样本上先跑不含中点降雨的 V0 作对照。日常口径下再剔除中点为易降雪日的连接-日
+if (run("V")) {
+  x <- read_ntc(c(od_cols("ab_o", "ab_d", "c7_o", "c7_d", "dband", "ab_m"), if (EVD) paste0(SNOW, "_m")))
+  x <- x[dband >= 2 & ab_m >= 0]
+  if (EVD) x <- x[get(paste0(SNOW, "_m")) == 0]
+  gc()
+  save(fit_split(as.formula(paste("ln_flow ~", B, "|", FE)), x, "dband", "V0_非台风_中点样本", cluster = CL, lean = TRUE))
+  gc()
+  save(fit_split(as.formula(paste("ln_flow ~", B, "+ i(ab_m, ref = 0) |", FE)), x, "dband", "V1_非台风_含中点降雨",
+                 cluster = CL, lean = TRUE))
+  rm(x); gc()
+}
 if (run("T5v")) {
   x <- read_ntc(od_cols("ab_o", "ab_d", "c7_o", "c7_d", "dband"))
   for (g in 0:4) {
