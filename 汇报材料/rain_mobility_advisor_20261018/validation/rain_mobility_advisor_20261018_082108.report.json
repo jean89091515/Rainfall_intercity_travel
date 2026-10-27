@@ -1,0 +1,327 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/exports/rain_mobility_advisor_20261018_082108.pptx",
+    "bytes": 1729701
+  },
+  "source": {
+    "svg_slide_count": 21,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "5d230c741802da46959b369b3358158d27d1ab7c04c3c55c20a3602a3bd0e347",
+      "file_count": 21,
+      "files": [
+        {
+          "file": "01_封面.svg",
+          "sha256": "04371063fe4af5231c9e58d2831c9e9ab3e0b52aeb2f5442bd37249247dd2903"
+        },
+        {
+          "file": "02_今天聊三件事.svg",
+          "sha256": "b567cfa37914fb205d6ca4621797e1a858e6605bbaa25247510e3171a4ecfa1f"
+        },
+        {
+          "file": "03_研究缺口.svg",
+          "sha256": "806761d55d35c2a982ee16872c05f88309033c0b1b868c5fa5a766b47f5968f2"
+        },
+        {
+          "file": "04_两个数据.svg",
+          "sha256": "d4464fd915697c01bb605bf30405ad3aa20b1aac11aa253e6f2fd328416fbcd3"
+        },
+        {
+          "file": "05_样本.svg",
+          "sha256": "c6b03236aa8218e38e8e3185f6b44e03c8729352b17079be44ed3c8d83e7970c"
+        },
+        {
+          "file": "06_识别策略.svg",
+          "sha256": "165141801aba6c604043055e64b5ff057dbe98cbcd7b08d2d60f1c8b40948468"
+        },
+        {
+          "file": "07_剂量响应.svg",
+          "sha256": "f7b02a2e9cda3fa724b92824762e5713ed2ce528ee3d8b4d403c018690b2cafb"
+        },
+        {
+          "file": "08_距离.svg",
+          "sha256": "0c9077d3cd461f17d08fc716f798724b61181a2a3af5ad2eee9651455ceaae36"
+        },
+        {
+          "file": "09_气候适应.svg",
+          "sha256": "b25d17293b78dfa2c814c19fce8833f9d759634699aee974e3dfe7dacfd21a4a"
+        },
+        {
+          "file": "10_时间动态.svg",
+          "sha256": "fc1968d74249498b49b54059786e9e321a67236ab54039d330c0baf0e897dfb2"
+        },
+        {
+          "file": "11_台风.svg",
+          "sha256": "8e309f4daa4a2581755dad69423aa4cc1ddd17a438d17126520f77c1fc42bdc2"
+        },
+        {
+          "file": "12_年度损失.svg",
+          "sha256": "bb1b731541436c5ecb5c270da463fa4bb0252727dc98f814a1bf0c768b4899c1"
+        },
+        {
+          "file": "13_换一种语言.svg",
+          "sha256": "86909a4f8c83a7740855710c268bd20030896ba5b1d916b7d0565f8172348283"
+        },
+        {
+          "file": "14_初探A_距离衰减.svg",
+          "sha256": "4dd7c6b8fd678468bca0167af4f75eebdad3c70026bbde215f21bd8b935a8cb4"
+        },
+        {
+          "file": "15_初探B_涨落分布.svg",
+          "sha256": "e4d3caadf076501aac75509f577bf8c065a62cd5cda82da8e114c92a564b58a9"
+        },
+        {
+          "file": "16_初探C_城市磁化率.svg",
+          "sha256": "94810420c1bb9b155b48c5782a9abf796d8c851b5846fb122df0249991c69e47"
+        },
+        {
+          "file": "17_七个候选问题.svg",
+          "sha256": "56e6450ee572c51568af74b8398333a2093f025149f9a8528b162f2899c4aa67"
+        },
+        {
+          "file": "18_候选问题详解一.svg",
+          "sha256": "8efa39afcc49c52cb9bd390778d872d85b64fb2d748111b2785589f72b78860b"
+        },
+        {
+          "file": "19_候选问题详解二.svg",
+          "sha256": "1ca9f93238c9766167e7a3b4832dbda07fd50646d42249220a89a480916fb408"
+        },
+        {
+          "file": "20_请老师把关.svg",
+          "sha256": "32482e181d629a961846ac267a0f9242645941b86fe2eae8656e1d0b3f405790"
+        },
+        {
+          "file": "21_下一步.svg",
+          "sha256": "840fdbb073da1768f9c0c895d75bd9b554005a8deb4747331777b6cf15da84ac"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 21,
+    "notes": 21,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/validation/svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "5d230c741802da46959b369b3358158d27d1ab7c04c3c55c20a3602a3bd0e347",
+      "file_count": 21,
+      "files": [
+        {
+          "file": "01_封面.svg",
+          "sha256": "04371063fe4af5231c9e58d2831c9e9ab3e0b52aeb2f5442bd37249247dd2903"
+        },
+        {
+          "file": "02_今天聊三件事.svg",
+          "sha256": "b567cfa37914fb205d6ca4621797e1a858e6605bbaa25247510e3171a4ecfa1f"
+        },
+        {
+          "file": "03_研究缺口.svg",
+          "sha256": "806761d55d35c2a982ee16872c05f88309033c0b1b868c5fa5a766b47f5968f2"
+        },
+        {
+          "file": "04_两个数据.svg",
+          "sha256": "d4464fd915697c01bb605bf30405ad3aa20b1aac11aa253e6f2fd328416fbcd3"
+        },
+        {
+          "file": "05_样本.svg",
+          "sha256": "c6b03236aa8218e38e8e3185f6b44e03c8729352b17079be44ed3c8d83e7970c"
+        },
+        {
+          "file": "06_识别策略.svg",
+          "sha256": "165141801aba6c604043055e64b5ff057dbe98cbcd7b08d2d60f1c8b40948468"
+        },
+        {
+          "file": "07_剂量响应.svg",
+          "sha256": "f7b02a2e9cda3fa724b92824762e5713ed2ce528ee3d8b4d403c018690b2cafb"
+        },
+        {
+          "file": "08_距离.svg",
+          "sha256": "0c9077d3cd461f17d08fc716f798724b61181a2a3af5ad2eee9651455ceaae36"
+        },
+        {
+          "file": "09_气候适应.svg",
+          "sha256": "b25d17293b78dfa2c814c19fce8833f9d759634699aee974e3dfe7dacfd21a4a"
+        },
+        {
+          "file": "10_时间动态.svg",
+          "sha256": "fc1968d74249498b49b54059786e9e321a67236ab54039d330c0baf0e897dfb2"
+        },
+        {
+          "file": "11_台风.svg",
+          "sha256": "8e309f4daa4a2581755dad69423aa4cc1ddd17a438d17126520f77c1fc42bdc2"
+        },
+        {
+          "file": "12_年度损失.svg",
+          "sha256": "bb1b731541436c5ecb5c270da463fa4bb0252727dc98f814a1bf0c768b4899c1"
+        },
+        {
+          "file": "13_换一种语言.svg",
+          "sha256": "86909a4f8c83a7740855710c268bd20030896ba5b1d916b7d0565f8172348283"
+        },
+        {
+          "file": "14_初探A_距离衰减.svg",
+          "sha256": "4dd7c6b8fd678468bca0167af4f75eebdad3c70026bbde215f21bd8b935a8cb4"
+        },
+        {
+          "file": "15_初探B_涨落分布.svg",
+          "sha256": "e4d3caadf076501aac75509f577bf8c065a62cd5cda82da8e114c92a564b58a9"
+        },
+        {
+          "file": "16_初探C_城市磁化率.svg",
+          "sha256": "94810420c1bb9b155b48c5782a9abf796d8c851b5846fb122df0249991c69e47"
+        },
+        {
+          "file": "17_七个候选问题.svg",
+          "sha256": "56e6450ee572c51568af74b8398333a2093f025149f9a8528b162f2899c4aa67"
+        },
+        {
+          "file": "18_候选问题详解一.svg",
+          "sha256": "8efa39afcc49c52cb9bd390778d872d85b64fb2d748111b2785589f72b78860b"
+        },
+        {
+          "file": "19_候选问题详解二.svg",
+          "sha256": "1ca9f93238c9766167e7a3b4832dbda07fd50646d42249220a89a480916fb408"
+        },
+        {
+          "file": "20_请老师把关.svg",
+          "sha256": "32482e181d629a961846ac267a0f9242645941b86fe2eae8656e1d0b3f405790"
+        },
+        {
+          "file": "21_下一步.svg",
+          "sha256": "840fdbb073da1768f9c0c895d75bd9b554005a8deb4747331777b6cf15da84ac"
+        }
+      ]
+    },
+    "summary": {
+      "total": 21,
+      "passed": 15,
+      "warnings": 6,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 6,
+        "issues": [
+          {
+            "file": "06_识别策略.svg",
+            "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=862, y=394; text='主口径：非台风日（两端 500 km 内…'); use supported explicit text positioning when page fit matters"
+          },
+          {
+            "file": "08_距离.svg",
+            "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：降雨改变的是距离衰减的形状→ …'); use supported explicit text positioning when page fit matters"
+          },
+          {
+            "file": "09_气候适应.svg",
+            "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：部分“数据塌缩”→ Q3；敏感…'); use supported explicit text positioning when page fit matters"
+          },
+          {
+            "file": "10_时间动态.svg",
+            "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：1–2 天弛豫，恢复函数是什么…'); use supported explicit text positioning when page fit matters"
+          },
+          {
+            "file": "11_台风.svg",
+            "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：强而空间相关的扰动（供给侧）→…'); use supported explicit text positioning when page fit matters"
+          },
+          {
+            "file": "20_请老师把关.svg",
+            "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=664, y=604; text='我的初步判断：Q2、Q3 价值高，而且现…'); use supported explicit text positioning when page fit matters"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "'Microsoft YaHei', Arial, sans-serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 10,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/backup/20261018_082108/svg_output",
+  "conversion_trace_path": null
+}

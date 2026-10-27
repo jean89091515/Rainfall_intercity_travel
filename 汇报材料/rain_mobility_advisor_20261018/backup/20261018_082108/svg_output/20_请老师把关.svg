@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#D9622B" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#D9622B">04 想请教老师的问题</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">想请老师帮我判断：先做哪一两个？</text>
+  </g>
+  <g id="priority-matrix" data-pptx-bounds="72 144 536 532">
+    <rect x="120" y="160" width="472" height="432" fill="#F3F5F7" />
+    <line x1="120" y1="376" x2="592" y2="376" stroke="#D5DAE0" stroke-width="2" />
+    <line x1="356" y1="160" x2="356" y2="592" stroke="#D5DAE0" stroke-width="2" />
+    <text x="96" y="376" font-size="18" fill="#5B6573" text-anchor="middle" transform="rotate(-90 96 376)">研究价值：中 → 高</text>
+    <text x="356" y="620" font-size="18" fill="#5B6573" text-anchor="middle">可行性（现有数据能否起步）：低 → 高</text>
+    <text x="580" y="190" font-size="18" font-weight="bold" fill="#1F3A5F" text-anchor="end">先做</text>
+    <g id="node-q5"><circle cx="196" cy="252" r="24" fill="#FFFFFF" stroke="#D9622B" stroke-width="2" /><text x="196" y="259" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q5</text></g>
+    <g id="node-q4"><circle cx="368" cy="268" r="24" fill="#FFFFFF" stroke="#D9622B" stroke-width="2" /><text x="368" y="275" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q4</text></g>
+    <g id="node-q2"><circle cx="476" cy="236" r="28" fill="#D9622B" /><text x="476" y="243" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Q2</text></g>
+    <g id="node-q3"><circle cx="540" cy="310" r="28" fill="#D9622B" /><text x="540" y="317" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Q3</text></g>
+    <g id="node-q1"><circle cx="300" cy="470" r="24" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="2" /><text x="300" y="477" font-size="18" font-weight="bold" fill="#1F3A5F" text-anchor="middle">Q1</text></g>
+    <g id="node-q6"><circle cx="452" cy="452" r="24" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="2" /><text x="452" y="459" font-size="18" font-weight="bold" fill="#1F3A5F" text-anchor="middle">Q6</text></g>
+    <g id="node-q7"><circle cx="536" cy="530" r="24" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="2" /><text x="536" y="537" font-size="18" font-weight="bold" fill="#1F3A5F" text-anchor="middle">Q7</text></g>
+    <text x="300" y="518" font-size="14" fill="#5B6573" text-anchor="middle">需补人口</text>
+    <text x="120" y="656" font-size="18" font-weight="bold" fill="#D9622B">情景判断：位置是我的初步判断，不是数据，请老师修正</text>
+  </g>
+  <g id="asks" data-pptx-bounds="640 144 584 400">
+    <text x="640" y="176" font-size="24" font-weight="bold" fill="#1F3A5F">想请教的四件事</text>
+    <g id="ask-1">
+      <text x="640" y="232" font-size="30" font-weight="bold" fill="#D9622B">1</text>
+      <text x="680" y="228" font-size="20" fill="#1D2430">哪一两个问题最值得做成统计物理 /<tspan x="680" dy="30">复杂系统风格的论文？和 TR-D 实证稿怎么分工？</tspan></text>
+    </g>
+    <g id="ask-2">
+      <text x="640" y="320" font-size="30" font-weight="bold" fill="#D9622B">2</text>
+      <text x="680" y="316" font-size="20" fill="#1D2430">固定效应给的是平均响应，统计物理的<tspan x="680" dy="30">做法该怎么补（分布、标度、塌缩、模型）？</tspan></text>
+    </g>
+    <g id="ask-3">
+      <text x="640" y="408" font-size="30" font-weight="bold" fill="#D9622B">3</text>
+      <text x="680" y="404" font-size="20" fill="#1D2430">需要补哪些数据？<tspan x="680" dy="30">人口、气温、雨量计观测、交通方式……</tspan></text>
+    </g>
+    <g id="ask-4">
+      <text x="640" y="496" font-size="30" font-weight="bold" fill="#D9622B">4</text>
+      <text x="680" y="492" font-size="20" fill="#1D2430">投稿方向的建议</text>
+    </g>
+  </g>
+  <g id="my-take" data-pptx-bounds="640 560 584 110">
+    <rect x="640" y="568" width="584" height="96" fill="#F3F5F7" />
+    <rect x="640" y="568" width="4" height="96" fill="#D9622B" />
+    <text x="664" y="604" font-size="20" fill="#1D2430"><tspan font-weight="bold" fill="#D9622B">我的初步判断：</tspan>Q2、Q3 价值高，<tspan x="664" dy="32">而且现有数据就能做——但最想听老师的意见</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">20 / 21</text>
+  </g>
+</svg>

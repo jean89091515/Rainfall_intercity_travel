@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">02 六个实证发现 · 6/6</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">日常降雨每年少走约 9.5 亿人次，大头是小雨和中雨</text>
+  </g>
+  <g id="q-tag" data-pptx-bounds="1000 40 224 32">
+    <text x="1164" y="62" font-size="14" fill="#5B6573" text-anchor="end">对应问题</text>
+    <rect x="1176" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1200" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q7</text>
+  </g>
+  <g id="loss-hero" data-pptx-bounds="72 140 400 104">
+    <text x="72" y="204" font-size="64" font-weight="bold" fill="#D9622B">9.54<tspan font-size="30" fill="#1D2430"> 亿人次 / 年</tspan></text>
+    <text x="72" y="236" font-size="18" fill="#5B6573">非台风日，日常降雨减少的城际出行</text>
+  </g>
+  <g id="loss-light" data-pptx-bounds="496 140 232 104">
+    <text x="496" y="192" font-size="30" font-weight="bold" fill="#1F3A5F">61%</text>
+    <text x="496" y="222" font-size="18" fill="#1D2430">小雨 5.77 亿</text>
+  </g>
+  <g id="loss-moderate" data-pptx-bounds="744 140 232 104">
+    <text x="744" y="192" font-size="30" font-weight="bold" fill="#1F3A5F">25%</text>
+    <text x="744" y="222" font-size="18" fill="#1D2430">中雨 2.36 亿</text>
+  </g>
+  <g id="loss-storm" data-pptx-bounds="992 140 232 104">
+    <text x="992" y="192" font-size="30" font-weight="bold" fill="#5B6573">4%</text>
+    <text x="992" y="222" font-size="18" fill="#1D2430">暴雨 + ≥100 mm 0.37 亿</text>
+  </g>
+  <line id="hero-rule" data-pptx-role="decoration" x1="72" y1="252" x2="1224" y2="252" stroke="#D5DAE0" stroke-width="1" />
+  <g id="loss-figure" data-pptx-bounds="72 260 1152 326">
+    <image href="../images/fig6_losses.png" x="72" y="262" width="1152" height="320" preserveAspectRatio="xMidYMid meet" />
+  </g>
+  <g id="loss-takeaway" data-pptx-bounds="72 590 1152 86">
+    <rect x="72" y="594" width="4" height="26" fill="#D9622B" />
+    <text x="88" y="614" font-size="20" fill="#1D2430"><tspan font-weight="bold" fill="#D9622B">物理视角：</tspan>损失来自频繁的小扰动，仅中雨就是暴雨 + 大暴雨的约 6 倍 → Q7</text>
+    <text x="88" y="642" font-size="18" fill="#1D2430">台风日降雨另减 1.27 亿，合计 10.8 亿（占无雨反事实 2.2%；只算稳定连接，是下限）</text>
+    <text x="88" y="668" font-size="18" fill="#5B6573">论文进展：英文 TR-D 初稿与中英文 Word 稿已完成；待补气温控制和雨量计数据稳健性</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">12 / 21</text>
+  </g>
+</svg>

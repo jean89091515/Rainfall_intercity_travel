@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="section" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <defs>
+    <marker id="mapArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#2E7FB8" />
+    </marker>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#2E7FB8" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#2E7FB8">03 用统计物理语言重看</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">换一种语言：把降雨看成一个弱而普遍的外场</text>
+  </g>
+  <rect id="definition-field" data-pptx-role="decoration" x="72" y="160" width="440" height="460" fill="#F3F5F7" />
+  <g id="definition-head" data-pptx-bounds="96 176 392 40">
+    <text x="96" y="204" font-size="18" font-weight="bold" fill="#2E7FB8">定义</text>
+  </g>
+  <g id="susceptibility-formula" data-pptx-replace-with="formula" data-pptx-x="96" data-pptx-y="224" data-pptx-width="392" data-pptx-height="110" data-pptx-bounds="96 224 392 110">
+    <metadata type="application/json">
+      {"latex":"\\chi = \\frac{\\partial \\langle \\ln F \\rangle}{\\partial h}",
+       "display":"block","font_size":40,"color":"#1F3A5F","align":"left"}
+    </metadata>
+    <text x="96" y="294" font-size="40" fill="#1F3A5F">χ = ∂⟨ln F⟩ / ∂h</text>
+  </g>
+  <g id="definition-text" data-pptx-bounds="96 352 392 252">
+    <text x="96" y="384" font-size="22" fill="#1D2430">外场 h = 降雨强度<tspan x="96" dy="36">响应 = ⟨ln F⟩ 的变化</tspan><tspan x="96" dy="36">χ = 单位雨强引起的响应</tspan></text>
+    <text x="96" y="530" font-size="18" fill="#5B6573">同一组实证结果，右边是五个对应；<tspan x="96" dy="28">后面三个初探都是新做的，</tspan><tspan x="96" dy="28">未经推敲</tspan></text>
+  </g>
+  <g id="map-heads" data-pptx-bounds="560 164 664 32" font-size="18" font-weight="bold">
+    <text x="560" y="186" fill="#5B6573">计量语言（已有结果）</text>
+    <text x="900" y="186" fill="#2E7FB8">统计物理语言</text>
+  </g>
+  <g id="map-1" data-pptx-bounds="560 206 664 72">
+    <line x1="560" y1="206" x2="1224" y2="206" stroke="#D5DAE0" stroke-width="1" />
+    <text x="560" y="250" font-size="22" fill="#1D2430">剂量-响应曲线</text>
+    <line x1="828" y1="243" x2="884" y2="243" stroke="#2E7FB8" stroke-width="2" marker-end="url(#mapArrow)" />
+    <text x="900" y="250" font-size="22" font-weight="bold" fill="#1F3A5F">响应函数 / 磁化率 χ</text>
+  </g>
+  <g id="map-2" data-pptx-bounds="560 286 664 72">
+    <line x1="560" y1="286" x2="1224" y2="286" stroke="#D5DAE0" stroke-width="1" />
+    <text x="560" y="330" font-size="22" fill="#1D2430">效应随距离衰减</text>
+    <line x1="828" y1="323" x2="884" y2="323" stroke="#2E7FB8" stroke-width="2" marker-end="url(#mapArrow)" />
+    <text x="900" y="330" font-size="22" font-weight="bold" fill="#1F3A5F">距离衰减指数 γ 被外场改变</text>
+  </g>
+  <g id="map-3" data-pptx-bounds="560 366 664 72">
+    <line x1="560" y1="366" x2="1224" y2="366" stroke="#D5DAE0" stroke-width="1" />
+    <text x="560" y="410" font-size="22" fill="#1D2430">本地分位数分档</text>
+    <line x1="828" y1="403" x2="884" y2="403" stroke="#2E7FB8" stroke-width="2" marker-end="url(#mapArrow)" />
+    <text x="900" y="410" font-size="22" font-weight="bold" fill="#1F3A5F">重标度与数据塌缩</text>
+  </g>
+  <g id="map-4" data-pptx-bounds="560 446 664 72">
+    <line x1="560" y1="446" x2="1224" y2="446" stroke="#D5DAE0" stroke-width="1" />
+    <text x="560" y="490" font-size="22" fill="#1D2430">当天 / 次日 / 恢复</text>
+    <line x1="828" y1="483" x2="884" y2="483" stroke="#2E7FB8" stroke-width="2" marker-end="url(#mapArrow)" />
+    <text x="900" y="490" font-size="22" font-weight="bold" fill="#1F3A5F">弛豫函数</text>
+  </g>
+  <g id="map-5" data-pptx-bounds="560 526 664 94">
+    <line x1="560" y1="526" x2="1224" y2="526" stroke="#D5DAE0" stroke-width="1" />
+    <text x="560" y="570" font-size="22" fill="#1D2430">台风日</text>
+    <line x1="828" y1="563" x2="884" y2="563" stroke="#2E7FB8" stroke-width="2" marker-end="url(#mapArrow)" />
+    <text x="900" y="570" font-size="22" font-weight="bold" fill="#1F3A5F">强而空间相关的扰动</text>
+    <line x1="560" y1="606" x2="1224" y2="606" stroke="#D5DAE0" stroke-width="1" />
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">13 / 21</text>
+  </g>
+</svg>

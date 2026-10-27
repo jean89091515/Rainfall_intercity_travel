@@ -1,0 +1,108 @@
+{
+  "stage": "stage2",
+  "lang": "zh",
+  "recommend": {
+    "delivery_purpose": "balanced",
+    "mode": "custom",
+    "visual_style": "custom",
+    "image_strategy": "custom",
+    "image_usage": ["provided"],
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "18-22" },
+  "image_notes": { "value": "只用已导入的 10 张图：论文中文版 7 张（研究区地图、剂量-响应、距离、气候与区域、时间动态、年度损失、台风对比）和 3 张标度律初探图（距离衰减、涨落分布、城市“磁化率”）。图是证据主体，完整显示、不裁切（图内有坐标轴和图例）。数据来源、模型流程、候选问题之间的关系用原生图形画，不用 AI 图。" },
+  "proactive_speaker_notes": { "value": true },
+  "proactive_custom_animations": { "value": false },
+  "proactive_narration_audio": { "value": false },
+  "refine_spec": { "value": false },
+  "design_spec_depth": { "value": "brief" },
+  "design_directions": {
+    "selected": 0,
+    "candidates": [
+      {
+        "id": "seminar-question-led",
+        "name": "学术研讨·问题驱动",
+        "note": "干净的学术风格：每页标题直接写结论，图占主位，页边用“物理视角”小注把实证结果连到后面的候选问题，最后用一张优先级矩阵请老师打分。",
+        "mode": "custom",
+        "mode_behavior": "以 pyramid 为基底：结果页用结论句做标题，下面是图和 2–3 个关键数字；全稿按“为什么做 → 数据与方法 → 六个实证发现 → 三个统计物理初探 → 七个候选问题 → 请老师把关”推进，每个发现页角落标注它对应的问题编号（Q1–Q7），候选问题部分每页写清“现象与证据 → 可能的物理框架 → 需要的数据或方法”，结尾落到一个让老师给出优先级的决定页。",
+        "visual_style": "custom",
+        "visual_style_behavior": "以 swiss-minimal 为基底：白底、12 栏网格、左侧一条窄色带标记所在章节；图作为最大的证据平面，结论标题左对齐；关键量（γ≈2.13、Δγ≈0.02、σ≈0.35、9.5 亿人次）用建筑尺度的大数字呈现；细线分隔、直角、无阴影无渐变，强调色只用于降雨效应和问题编号。",
+        "icons": "tabler-outline",
+        "color": { "name": "墨蓝与雨橙", "palette": {
+          "background": "#FFFFFF", "secondary_bg": "#F3F5F7",
+          "primary": "#1F3A5F", "accent": "#D9622B",
+          "secondary_accent": "#2E7FB8", "body_text": "#1D2430"
+        } },
+        "typography": {
+          "name": "微软雅黑 + Arial",
+          "heading": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 22
+        },
+        "image_strategy": {
+          "name": "网格化示意",
+          "rendering": "custom",
+          "visual": "几何化的网络与雨区示意，纯平面色块",
+          "mood": "严谨、克制，像物理期刊的示意图",
+          "behavior": "以 minimalist-swiss 为基底：单一线宽、正圆与直线构成城市节点和连接，一个主色块标记雨区，大面积留白；无纹理、无阴影，只用当前配色。"
+        }
+      },
+      {
+        "id": "physicist-notebook",
+        "name": "物理学家的笔记本",
+        "note": "像在白板或笔记本上推导：公式是视觉锚点，手绘括号和箭头把图和批注连起来，故事从“雨天少走 9.5 亿人次”走到“弱外场下的普适规律”。",
+        "mode": "custom",
+        "mode_behavior": "以 narrative 为基底：现象（日常降雨每年少走 9.5 亿人次）→ 张力（信号很弱：σ≈0.35 对 −0.04，台风混在里面）→ 转折（换成标度、塌缩、线性响应的语言看同一组结果）→ 开放问题；标题写成推进剧情的一句话，每章用一个公式（F ∝ d^−γ、χ = ∂⟨ln F⟩/∂h）收束。",
+        "visual_style": "custom",
+        "visual_style_behavior": "以 ink-notes 为基底：米白纸面、深色墨线，手绘感的括号、箭头、圈注把图和边注连起来；关键数字用手绘圆圈圈出；几乎单色，只有雨橙标降雨效应、墨蓝标基线；无阴影、无卡片网格，大量留白。",
+        "icons": "none",
+        "color": { "name": "纸面墨迹", "palette": {
+          "background": "#FBFAF6", "secondary_bg": "#F1EEE6",
+          "primary": "#22313F", "accent": "#C8553D",
+          "secondary_accent": "#3A6EA5", "body_text": "#22262B"
+        } },
+        "typography": {
+          "name": "楷体标题 + 微软雅黑正文",
+          "heading": { "primary": "KaiTi", "english": "Georgia", "css": "serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 22
+        },
+        "image_strategy": {
+          "name": "墨线笔记",
+          "rendering": "custom",
+          "visual": "墨线手绘的城市网络、雨滴和响应曲线草图",
+          "mood": "像组会白板上的推导笔记，思考中、开放",
+          "behavior": "以 ink-notes 为基底：深色墨线带轻微抖动，干净纸面无纹理，强调色只占不到一成，用于标出降雨和关键量。"
+        }
+      },
+      {
+        "id": "data-longread",
+        "name": "数据长文·证据密集",
+        "note": "像财经杂志的数据长文：多栏排版、大数字侧栏、每页都有来源行；候选问题用一张对照表摆开，适合会后老师自己细读。",
+        "mode": "custom",
+        "mode_behavior": "以 briefing 为基底：主题式标题、完整中立地摊开数据、方法、全部结果和七个问题；同类页面结构一致便于查找，候选问题用“问题 | 物理框架 | 已有证据 | 所需数据 | 难度”的对照表集中呈现，不刻意制造结论。",
+        "visual_style": "custom",
+        "visual_style_behavior": "以 data-journalism 为基底：多栏网格，图作为页面脊柱，旁边是大数字侧栏和简短解读，细线分隔，每页底部一行数据来源；衬线标题配无衬线正文，信息密度高但网格严格。",
+        "icons": "tabler-outline",
+        "color": { "name": "报刊深蓝与砖红", "palette": {
+          "background": "#FFFFFF", "secondary_bg": "#F2F0EB",
+          "primary": "#14213D", "accent": "#B5332E",
+          "secondary_accent": "#4F7CAC", "body_text": "#1B1F24"
+        } },
+        "typography": {
+          "name": "宋体标题 + 微软雅黑正文",
+          "heading": { "primary": "SimSun", "english": "Georgia", "css": "serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 20
+        },
+        "image_strategy": {
+          "name": "编辑式信息图",
+          "rendering": "custom",
+          "visual": "杂志式信息图块面和细线分隔",
+          "mood": "冷静、可信，像《经济学人》的图解",
+          "behavior": "以 editorial 为基底：一个主色块、一个中性色、一条强调细线，平面分层无阴影，构图像杂志跨页。"
+        }
+      }
+    ]
+  }
+}

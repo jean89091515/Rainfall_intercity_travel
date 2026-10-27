@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">01 为什么做与数据</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">2.6 万条稳定连接承载了 98% 的流量</text>
+  </g>
+  <g id="study-area-map" data-pptx-bounds="72 140 640 532">
+    <image href="../images/fig1_study_area.png" x="72" y="140" width="640" height="486" preserveAspectRatio="xMidYMid meet" />
+    <text x="72" y="646" font-size="14" fill="#5B6573">365 城按 1991—2020 年平均年降水量着色（ERA5-Land）；<tspan x="72" dy="20">红线为 800 mm 湿润区界线；审图号 GS(2024)0650</tspan></text>
+  </g>
+  <g id="kpi-links" data-pptx-bounds="752 148 240 160">
+    <text x="752" y="212" font-size="64" font-weight="bold" fill="#1F3A5F">26,442</text>
+    <text x="752" y="248" font-size="18" fill="#1D2430">条稳定有向连接<tspan x="752" dy="26">（≥95% 天数有披露）</tspan></text>
+  </g>
+  <g id="kpi-share" data-pptx-bounds="996 148 228 160">
+    <text x="996" y="212" font-size="64" font-weight="bold" fill="#1F3A5F">98.0%</text>
+    <text x="996" y="248" font-size="18" fill="#1D2430">已披露流量由这些<tspan x="996" dy="26">连接承载</tspan></text>
+  </g>
+  <g id="kpi-obs" data-pptx-bounds="752 318 228 160">
+    <text x="752" y="382" font-size="64" font-weight="bold" fill="#1F3A5F">2878<tspan font-size="30">万</tspan></text>
+    <text x="752" y="418" font-size="18" fill="#1D2430">个连接-日<tspan x="752" dy="26">（2023—2025，1096 天）</tspan></text>
+  </g>
+  <g id="kpi-short" data-pptx-bounds="996 318 228 160">
+    <text x="996" y="382" font-size="64" font-weight="bold" fill="#D9622B">49.9%</text>
+    <text x="996" y="418" font-size="18" fill="#1D2430">&lt;150 km 的连接只占 6%，<tspan x="996" dy="26">却承载一半流量</tspan></text>
+  </g>
+  <g id="sample-notes" data-pptx-bounds="752 500 472 160">
+    <line x1="752" y1="508" x2="1224" y2="508" stroke="#D5DAE0" stroke-width="1" />
+    <text x="752" y="544" font-size="18" fill="#1D2430">· 曾出现的有向连接 132,622 条，只留稳定连接<tspan x="752" dy="30">· 365 城（剔除三沙），无缺失日、无疫情管控</tspan><tspan x="752" dy="30">· 连接日流量中位数 709 人次，距离中位数 552 km</tspan><tspan x="752" dy="30">· 湿润区（年降水 ≥800 mm）225 城，约秦岭—淮河以南</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">05 / 21</text>
+  </g>
+</svg>

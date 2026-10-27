@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#2E7FB8" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#2E7FB8">03 用统计物理语言重看 · 初探 C</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">初探 C：城市“磁化率”取决于气候，不取决于规模</text>
+  </g>
+  <g id="q-tag" data-pptx-bounds="1000 40 224 32">
+    <text x="1104" y="62" font-size="14" fill="#5B6573" text-anchor="end">对应问题</text>
+    <rect x="1116" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1140" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q1</text>
+    <rect x="1176" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1200" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q3</text>
+  </g>
+  <g id="chi-figure" data-pptx-bounds="72 136 1152 380">
+    <image href="../images/scaling_c_city_susceptibility.png" x="72" y="136" width="1152" height="376" preserveAspectRatio="xMidYMid meet" />
+  </g>
+  <line id="band-rule" data-pptx-role="decoration" x1="72" y1="522" x2="1224" y2="522" stroke="#D5DAE0" stroke-width="1" />
+  <g id="chi-formula" data-pptx-replace-with="formula" data-pptx-x="72" data-pptx-y="532" data-pptx-width="448" data-pptx-height="64" data-pptx-bounds="72 532 448 64">
+    <metadata type="application/json">
+      {"latex":"\\chi_i = \\exp\\left(\\bar{\\varepsilon}_{i,\\ge 25\\,\\mathrm{mm}} - \\bar{\\varepsilon}_{i,\\mathrm{dry}}\\right) - 1",
+       "display":"block","font_size":24,"color":"#1F3A5F","align":"left"}
+    </metadata>
+    <text x="72" y="572" font-size="24" fill="#1F3A5F">χᵢ = exp(ε̄ᵢ,≥25mm − ε̄ᵢ,dry) − 1</text>
+  </g>
+  <g id="chi-notes" data-pptx-bounds="72 604 448 72" font-size="18">
+    <text x="72" y="626" fill="#1D2430">270 城（≥10 个非台风大雨日），中位数 −5.1%</text>
+    <text x="72" y="656" fill="#5B6573">同时放入：规模 +1.6、降水 +13.2（百分点）</text>
+  </g>
+  <g id="hero-size" data-pptx-bounds="540 532 232 144">
+    <text x="540" y="600" font-size="64" font-weight="bold" fill="#1F3A5F">+0.8</text>
+    <text x="540" y="636" font-size="18" fill="#1D2430">城市流动规模每增加<tspan x="540" dy="26">10 倍（百分点）</tspan></text>
+  </g>
+  <g id="hero-climate" data-pptx-bounds="780 532 236 144">
+    <text x="780" y="600" font-size="64" font-weight="bold" fill="#D9622B">+12.7</text>
+    <text x="780" y="636" font-size="18" fill="#1D2430">年降水每增加 10 倍，<tspan x="780" dy="26">敏感度减弱（百分点）</tspan></text>
+  </g>
+  <g id="adapt-note" data-pptx-bounds="1020 532 204 144">
+    <rect x="1020" y="540" width="4" height="124" fill="#D9622B" />
+    <text x="1036" y="564" font-size="18" fill="#1D2430">没有明显的规模<tspan x="1036" dy="28">标度，却有很强的</tspan><tspan x="1036" dy="28">“气候标度”：响应</tspan><tspan x="1036" dy="28">被长期外场“适应”掉</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流 · 初探，未经推敲</text>
+    <text x="1224" y="700" text-anchor="end">16 / 21</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+{
+  "primary_language": "zh-CN",
+  "canvas": "ppt169",
+  "audience": "导师张老师：熟悉标度律、统计物理和复杂系统方法（人类移动、城市科学方向），对 DIMNet-CPC、ERA5-Land 这两个数据和计量里的固定效应回归不一定熟；更关心现象背后的物理图像、可推广的规律，以及值不值得做成一篇方法上有新意的论文。",
+  "communication_intent": "先用较短篇幅说清两个数据和已经做出的实证结果（剂量-响应、距离、气候适应、时间动态、台风、年度损失），再展示用标度律 / 统计物理语言做的三个初探（距离衰减指数、涨落分布、城市“磁化率”），最后把 7 个候选问题摆出来，请老师判断哪些值得做、怎么做。以讨论和征求意见为主，不是答辩。",
+  "audience_outcome": "老师在 30–40 分钟内看懂数据和主要发现，对候选问题给出优先级判断，指出 1–2 个值得深入的方向和对应的方法，并说明还需要补什么数据（如人口、气温、雨量计观测）。",
+  "core_message": "降雨对城际流动像一个“弱而普遍的外场”：响应平滑、随距离衰减、被本地气候“适应”掉一部分，台风是另一种机制；这些规律有希望用标度律 / 统计物理的语言统一描述——想请老师帮忙挑问题、定方法。",
+  "delivery_context": "主要是一对一当面或线上共享屏幕交流，约 30–40 分钟，由我讲解、边看边讨论；次要是会后发给老师自行翻阅。",
+  "artifact_afterlife": "会后发给老师参考，作为后续选题讨论和组会汇报的底稿。",
+  "content_divergence": "",
+  "delivery_purpose": "balanced",
+  "page_count": "18-22",
+  "mode": "custom",
+  "mode_behavior": "以 pyramid 为基底：结果页用结论句做标题，下面是图和 2–3 个关键数字；全稿按“为什么做 → 数据与方法 → 六个实证发现 → 三个统计物理初探 → 七个候选问题 → 请老师把关”推进，每个发现页角落标注它对应的问题编号（Q1–Q7），候选问题部分每页写清“现象与证据 → 可能的物理框架 → 需要的数据或方法”，结尾落到一个让老师给出优先级的决定页。",
+  "visual_style": "custom",
+  "visual_style_behavior": "以 swiss-minimal 为基底：白底、12 栏网格、左侧一条窄色带标记所在章节；图作为最大的证据平面，结论标题左对齐；关键量（γ≈2.13、Δγ≈0.02、σ≈0.35、9.5 亿人次）用建筑尺度的大数字呈现；细线分隔、直角、无阴影无渐变，强调色只用于降雨效应和问题编号。",
+  "color": {
+    "name": "墨蓝与雨橙",
+    "palette": {
+      "background": "#FFFFFF",
+      "secondary_bg": "#F3F5F7",
+      "primary": "#1F3A5F",
+      "accent": "#D9622B",
+      "secondary_accent": "#2E7FB8",
+      "body_text": "#1D2430"
+    }
+  },
+  "icons": "tabler-outline",
+  "typography": {
+    "name": "微软雅黑 + Arial",
+    "heading": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body_size": 22,
+    "sizes": {
+      "title": 38,
+      "subtitle": 30,
+      "annotation": 18
+    },
+    "note": "",
+    "body_size_unit": "px"
+  },
+  "image_usage": [
+    "provided"
+  ],
+  "image_notes": "只用已导入的 10 张图：论文中文版 7 张（研究区地图、剂量-响应、距离、气候与区域、时间动态、年度损失、台风对比）和 3 张标度律初探图（距离衰减、涨落分布、城市“磁化率”）。图是证据主体，完整显示、不裁切（图内有坐标轴和图例）。数据来源、模型流程、候选问题之间的关系用原生图形画，不用 AI 图。",
+  "proactive_speaker_notes": true,
+  "proactive_custom_animations": false,
+  "proactive_narration_audio": false,
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "design_spec_depth": "brief",
+  "stage": "final",
+  "status": "confirmed",
+  "confirmed_at": "2026-10-18T08:01:23"
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">02 六个实证发现 · 5/6</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">台风日只占 2.5%，却制造了“极端降雨”的大部分效应</text>
+  </g>
+  <g id="q-tag" data-pptx-bounds="1000 40 224 32">
+    <text x="1104" y="62" font-size="14" fill="#5B6573" text-anchor="end">对应问题</text>
+    <rect x="1116" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1140" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q5</text>
+    <rect x="1176" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1200" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q7</text>
+  </g>
+  <g id="typhoon-figure" data-pptx-bounds="72 136 1152 432">
+    <image href="../images/fig7_typhoon.png" x="72" y="136" width="1152" height="396" preserveAspectRatio="xMidYMid meet" />
+    <text x="72" y="560" font-size="18" fill="#5B6573">台风影响下终点小雨也额外 −6.5%（预警、停运）；混在一起会制造假象：长途也大降、湿润区反而更敏感</text>
+  </g>
+  <line id="band-rule" data-pptx-role="decoration" x1="72" y1="578" x2="1224" y2="578" stroke="#D5DAE0" stroke-width="1" />
+  <g id="band-share" data-pptx-bounds="72 584 280 92">
+    <text x="72" y="616" font-size="30" font-weight="bold" fill="#1F3A5F">2.5% · 70%</text>
+    <text x="72" y="644" font-size="18" fill="#1D2430">台风日占连接-日 2.5%；<tspan x="72" dy="24">≥100 mm 城市-日 70% 是台风日</tspan></text>
+  </g>
+  <g id="band-shrink" data-pptx-bounds="364 584 288 92">
+    <text x="364" y="616" font-size="30" font-weight="bold" fill="#D9622B">−27.1% → −8.8%</text>
+    <text x="364" y="644" font-size="18" fill="#1D2430">终点 ≥100 mm：全部日→非台风日<tspan x="364" dy="24">（起点 −22.4% → −5.5%）</tspan></text>
+  </g>
+  <g id="band-extra" data-pptx-bounds="656 584 280 92">
+    <text x="656" y="616" font-size="30" font-weight="bold" fill="#1F3A5F">−24% / −32%</text>
+    <text x="656" y="644" font-size="18" fill="#1D2430">同样 ≥100 mm 的雨在台风日<tspan x="656" dy="24">额外下降（起点 / 终点）</tspan></text>
+  </g>
+  <g id="physics-hook" data-pptx-bounds="948 584 276 92">
+    <rect x="948" y="590" width="4" height="78" fill="#D9622B" />
+    <text x="964" y="614" font-size="18" fill="#1D2430"><tspan font-weight="bold" fill="#D9622B">物理视角：</tspan>强而空间<tspan x="964" dy="26">相关的扰动（供给侧）</tspan><tspan x="964" dy="26">→ Q5、Q7</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">11 / 21</text>
+  </g>
+</svg>

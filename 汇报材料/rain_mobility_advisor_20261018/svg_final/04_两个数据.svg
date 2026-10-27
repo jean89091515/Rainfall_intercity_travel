@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">01 为什么做与数据</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">两个主数据：逐日 OD 流量 + 站点位置的再分析降水</text>
+  </g>
+  <g id="data-dimnet" data-pptx-bounds="72 148 448 520">
+    <rect x="72" y="148" width="448" height="4" fill="#1F3A5F" />
+    
+  <g transform="translate(72, 170) scale(1.5)" fill="none" stroke="#1F3A5F" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g>
+    <text x="120" y="198" font-size="24" font-weight="bold" fill="#1D2430">DIMNet-CPC</text>
+    <text x="72" y="236" font-size="18" fill="#5B6573">逐日城际 OD 流量 · 主数据</text>
+    <text fill="#1D2430" font-size="20" x="72" y="280">Xu et al. 2026，Scientific Data</text><text fill="#1D2430" font-size="20" x="72" y="312">366 个地级及以上单元，2020—2025</text><text fill="#1D2430" font-size="20" x="72" y="344">逐日有向 OD 流量（人次）</text><text fill="#1D2430" font-size="20" x="72" y="376">百度迁徙相对强度 × 全国逐日</text><text fill="#1D2430" font-size="20" x="72" y="408">旅客统计（校准）</text><rect x="72" y="436" width="448" height="76" fill="#F3F5F7" />
+    <text x="92" y="470" font-size="24" fill="#1F3A5F">F<tspan baseline-shift="sub" font-size="14">ijt</tspan> = k<tspan baseline-shift="sub" font-size="14">t</tspan> · q<tspan baseline-shift="sub" font-size="14">ijt</tspan></text>
+    <text x="92" y="498" font-size="18" fill="#5B6573">k<tspan baseline-shift="sub" font-size="14">t</tspan> 为全国当日系数，被日期固定效应吸收</text>
+    <rect x="72" y="540" width="4" height="96" fill="#D9622B" />
+    <text x="90" y="562" font-size="18" font-weight="bold" fill="#D9622B">注意</text>
+    <text fill="#1D2430" font-size="18" x="90" y="592">只披露每城前 100 名流出 / 流入地</text><text fill="#1D2430" font-size="18" x="90" y="620">→ 缺失 = 未披露，不是 0</text></g>
+  <g id="data-era5" data-pptx-bounds="552 148 360 520">
+    <rect x="552" y="148" width="360" height="4" fill="#1F3A5F" />
+    
+  <g transform="translate(552, 170) scale(1.5)" fill="none" stroke="#1F3A5F" stroke-width="2">
+    <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7" />
+    <path d="M11 13v2m0 3v2m4 -5v2m0 3v2" />
+  </g>
+    <text x="600" y="198" font-size="24" font-weight="bold" fill="#1D2430">ERA5-Land</text>
+    <text x="552" y="236" font-size="18" fill="#5B6573">站点位置提取的逐日降水 · 主数据</text>
+    <text fill="#1D2430" font-size="20" x="552" y="280">地联社整理：2421 个气象站</text><text fill="#1D2430" font-size="20" x="552" y="312">0.1°（约 9 km），1950—2026</text><text fill="#1D2430" font-size="20" x="552" y="344">按北京时日累加</text><text fill="#1D2430" font-size="20" x="552" y="376">城市 = 站内站点均值</text><text fill="#1D2430" font-size="20" x="552" y="408">（中位 6 站）</text><rect x="552" y="540" width="4" height="96" fill="#D9622B" />
+    <text x="570" y="562" font-size="18" font-weight="bold" fill="#D9622B">注意</text>
+    <text fill="#1D2430" font-size="18" x="570" y="592">36 个海洋格点站全为 0，剔除</text><text fill="#1D2430" font-size="18" x="570" y="620">→ 2385 站；高估小雨、低估极端</text></g>
+  <g id="data-ibtracs" data-pptx-bounds="944 148 280 520">
+    <rect x="944" y="148" width="280" height="4" fill="#2E7FB8" />
+    
+  <g transform="translate(944, 170) scale(1.5)" fill="none" stroke="#2E7FB8" stroke-width="2">
+    <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />
+    <path d="M13 14l-2 4l3 0l-2 4" />
+  </g>
+    <text x="992" y="198" font-size="24" font-weight="bold" fill="#1D2430">IBTrACS</text>
+    <text x="944" y="236" font-size="18" fill="#5B6573">热带气旋路径 · 辅助</text>
+    <text fill="#1D2430" font-size="20" x="944" y="280">西北太平洋路径</text><text fill="#1D2430" font-size="20" x="944" y="312">3 小时一个位置</text><text fill="#1D2430" font-size="20" x="944" y="344">气旋中心（含残余低压）</text><text fill="#1D2430" font-size="20" x="944" y="376">距城市 ≤ 500 km</text><text fill="#1D2430" font-size="20" x="944" y="408">→ 记为台风日</text><rect x="944" y="540" width="4" height="96" fill="#2E7FB8" />
+    <text x="962" y="562" font-size="18" font-weight="bold" fill="#2E7FB8">稳健性</text>
+    <text fill="#1D2430" font-size="18" x="962" y="592">半径改为 300 km</text><text fill="#1D2430" font-size="18" x="962" y="620">结果基本不变</text></g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">04 / 21</text>
+  </g>
+</svg>

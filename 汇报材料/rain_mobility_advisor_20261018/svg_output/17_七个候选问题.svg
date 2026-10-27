@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="section" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#D9622B" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#D9622B">04 想请教老师的问题</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">七个候选问题，分三组</text>
+  </g>
+  <g id="lane-scaling" data-pptx-bounds="72 148 368 520">
+    <rect x="72" y="148" width="368" height="520" fill="#F3F5F7" />
+    <rect x="72" y="148" width="368" height="4" fill="#1F3A5F" />
+    <text x="88" y="188" font-size="24" font-weight="bold" fill="#1F3A5F">标度与模型</text>
+    <g id="q1-card">
+      <rect x="88" y="208" width="336" height="220" fill="#FFFFFF" />
+      <text x="104" y="248" font-size="24" font-weight="bold" fill="#D9622B">Q1<tspan font-size="22" fill="#1D2430"> 城市标度律</tspan></text>
+      <text x="104" y="288" font-size="20" fill="#1D2430">雨天时，城际流动的<tspan x="104" dy="30">人口标度指数 β</tspan><tspan x="104" dy="30">（Y ∝ N^β）会不会变？</tspan></text>
+      <text x="104" y="408" font-size="18" fill="#5B6573">证据：P16 初探 C</text>
+    </g>
+    <g id="q2-card">
+      <rect x="88" y="440" width="336" height="220" fill="#FFFFFF" />
+      <text x="104" y="480" font-size="24" font-weight="bold" fill="#D9622B">Q2<tspan font-size="22" fill="#1D2430"> 引力 vs 辐射模型</tspan></text>
+      <text x="104" y="520" font-size="20" fill="#1D2430">降雨改的是距离衰减<tspan x="104" dy="30">指数 γ、质量项，</tspan><tspan x="104" dy="30">还是交叉尺度？</tspan></text>
+      <text x="104" y="640" font-size="18" fill="#5B6573">证据：P08、P14 初探 A</text>
+    </g>
+  </g>
+  <g id="lane-universality" data-pptx-bounds="464 148 368 520">
+    <rect x="464" y="148" width="368" height="520" fill="#F3F5F7" />
+    <rect x="464" y="148" width="368" height="4" fill="#1F3A5F" />
+    <text x="480" y="188" font-size="24" font-weight="bold" fill="#1F3A5F">普适性与响应</text>
+    <g id="q3-card">
+      <rect x="480" y="208" width="336" height="220" fill="#FFFFFF" />
+      <text x="496" y="248" font-size="24" font-weight="bold" fill="#D9622B">Q3<tspan font-size="22" fill="#1D2430"> 数据塌缩</tspan></text>
+      <text x="496" y="288" font-size="20" fill="#1D2430">用本地气候尺度重标度后，<tspan x="496" dy="30">各城剂量-响应曲线能否</tspan><tspan x="496" dy="30">塌缩到一条主曲线？</tspan></text>
+      <text x="496" y="408" font-size="18" fill="#5B6573">证据：P09、P16</text>
+    </g>
+    <g id="q4-card">
+      <rect x="480" y="440" width="336" height="220" fill="#FFFFFF" />
+      <text x="496" y="480" font-size="24" font-weight="bold" fill="#D9622B">Q4<tspan font-size="22" fill="#1D2430"> 线性响应与涨落</tspan></text>
+      <text x="496" y="520" font-size="20" fill="#1D2430">连接的自发涨落与敏感度<tspan x="496" dy="30">有无类似涨落-耗散的</tspan><tspan x="496" dy="30">关系？</tspan></text>
+      <text x="496" y="640" font-size="18" fill="#5B6573">证据：P07、P15 初探 B</text>
+    </g>
+  </g>
+  <g id="lane-network" data-pptx-bounds="856 148 368 520">
+    <rect x="856" y="148" width="368" height="520" fill="#F3F5F7" />
+    <rect x="856" y="148" width="368" height="4" fill="#1F3A5F" />
+    <text x="872" y="188" font-size="24" font-weight="bold" fill="#1F3A5F">网络与动力学</text>
+    <g id="q5-card">
+      <rect x="872" y="208" width="336" height="144" fill="#FFFFFF" />
+      <text x="888" y="244" font-size="24" font-weight="bold" fill="#D9622B">Q5<tspan font-size="22" fill="#1D2430"> 空间关联与网络</tspan></text>
+      <text x="888" y="278" font-size="20" fill="#1D2430">相关扰动下网络如何渗流、<tspan x="888" dy="28">如何向第三方城市级联？</tspan></text>
+      <text x="888" y="338" font-size="18" fill="#5B6573">证据：P11</text>
+    </g>
+    <g id="q6-card">
+      <rect x="872" y="364" width="336" height="144" fill="#FFFFFF" />
+      <text x="888" y="400" font-size="24" font-weight="bold" fill="#D9622B">Q6<tspan font-size="22" fill="#1D2430"> 弛豫动力学</tspan></text>
+      <text x="888" y="434" font-size="20" fill="#1D2430">扰动后的恢复是指数型<tspan x="888" dy="28">还是幂律型？</tspan></text>
+      <text x="888" y="494" font-size="18" fill="#5B6573">证据：P10</text>
+    </g>
+    <g id="q7-card">
+      <rect x="872" y="520" width="336" height="144" fill="#FFFFFF" />
+      <text x="888" y="556" font-size="24" font-weight="bold" fill="#D9622B">Q7<tspan font-size="22" fill="#1D2430"> 频率–强度统计</tspan></text>
+      <text x="888" y="590" font-size="20" fill="#1D2430">“强度—频率—损失”统一描述，<tspan x="888" dy="28">损失分布有无幂律尾？</tspan></text>
+      <text x="888" y="650" font-size="18" fill="#5B6573">证据：P12</text>
+    </g>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">17 / 21</text>
+  </g>
+</svg>

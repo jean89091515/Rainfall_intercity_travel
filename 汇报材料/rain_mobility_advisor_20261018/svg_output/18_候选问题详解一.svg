@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#D9622B" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#D9622B">04 想请教老师的问题</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">候选问题详解（一）：标度、模型、塌缩、响应</text>
+  </g>
+  <g id="questions-1" data-pptx-replace-with="table" data-pptx-bounds="72 140 1152 492" data-pptx-fallback-sha256="49362ceb12b52b2220cd26a2e188ea5995e5d27de262eb9d6d65f499663c5fc4">
+    <metadata type="application/json">{"schema": "ppt-master.semantic-table.v2", "name": "questions-1", "x": 72, "y": 140, "width": 1152, "height": 492, "strict_grid": true, "column_widths": [200, 300, 340, 312], "row_heights": [44, 112, 112, 112, 112], "style": {"font_family": "Microsoft YaHei", "font_size": 18, "header_font_size": 18, "band_row": false, "valign": "top", "padding": {"left": 12, "right": 12, "top": 8, "bottom": 8}}, "defaults": {"cell": {"color": "#1D2430", "borders": {"left": {"style": "none"}, "right": {"style": "none"}, "top": {"style": "none"}, "bottom": {"style": "solid", "color": "#D5DAE0", "width": 1}}}}, "cell_styles": {"head": {"fill": "#1F3A5F", "color": "#FFFFFF", "bold": true, "valign": "middle"}}, "columns": [{"text": "问题", "cell_style": "head", "align": "l"}, {"text": "现象与已有证据", "cell_style": "head", "align": "l"}, {"text": "可能的物理框架", "cell_style": "head", "align": "l"}, {"text": "需要的数据或方法", "cell_style": "head", "align": "l"}], "rows": [[{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q1", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "城市标度律", "bold": true, "color": "#1D2430"}]}]}, {"text": "敏感度几乎与流动规模无关：每增加 10 倍仅 +0.8 个百分点（初探 C）"}, {"text": "城市标度律 Y ∝ N^β：比较雨天与晴天的 β；损失随规模超线性还是次线性？"}, {"text": "需补：七普人口数据"}], [{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q2", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "引力 vs 辐射模型", "bold": true, "color": "#1D2430"}]}]}, {"text": "效应随距离衰减；Δγ ≈ +0.02；&gt;1000 km 处出现交叉"}, {"text": "引力模型 vs 辐射模型（中间机会）：降雨是否缩小“有效机会半径”？"}, {"text": "需要：一个机制模型，推出 Δγ ≈ 0.02 的量级"}], [{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q3", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "数据塌缩", "bold": true, "color": "#1D2430"}]}]}, {"text": "本地分位数重标度后，干湿差距缩小但不消失（P95–P99：−3.4% vs −1.4%）"}, {"text": "以 P99、重现期或标准化距平为标度变量，看各城剂量-响应能否塌缩"}, {"text": "需要：选对标度变量；现有数据即可起步"}], [{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q4", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "线性响应与涨落", "bold": true, "color": "#1D2430"}]}]}, {"text": "自发涨落 σ ≈ 0.35，远大于暴雨平均响应（−0.04）"}, {"text": "线性响应；涨落-耗散类比；敏感度在连接间的分布是否重尾？"}, {"text": "需要：连接层面的响应估计"}]]}</metadata>
+    <rect x="72" y="140" width="1152" height="44" fill="#1F3A5F" />
+    <text x="84" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">问题</text>
+    <text x="284" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">现象与已有证据</text>
+    <text x="584" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">可能的物理框架</text>
+    <text x="924" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">需要的数据或方法</text>
+    <line x1="72" y1="296" x2="1224" y2="296" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="220" font-size="24" font-weight="bold" fill="#D9622B">Q1</text>
+    <text x="84" y="250" font-size="18" font-weight="bold" fill="#1D2430">城市标度律</text>
+    <text x="284" y="218" font-size="18" fill="#1D2430">敏感度几乎与流动规模<tspan x="284" dy="26">无关：每增加 10 倍</tspan><tspan x="284" dy="26">仅 +0.8 个百分点（初探 C）</tspan></text>
+    <text x="584" y="218" font-size="18" fill="#1D2430">城市标度律 Y ∝ N^β：<tspan x="584" dy="26">比较雨天与晴天的 β；</tspan><tspan x="584" dy="26">损失随规模超线性还是次线性？</tspan></text>
+    <text x="924" y="218" font-size="18" fill="#1D2430">需补：七普人口数据</text>
+    <line x1="72" y1="408" x2="1224" y2="408" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="332" font-size="24" font-weight="bold" fill="#D9622B">Q2</text>
+    <text x="84" y="362" font-size="18" font-weight="bold" fill="#1D2430">引力 vs 辐射模型</text>
+    <text x="284" y="330" font-size="18" fill="#1D2430">效应随距离衰减；<tspan x="284" dy="26">Δγ ≈ +0.02；</tspan><tspan x="284" dy="26">&gt;1000 km 处出现交叉</tspan></text>
+    <text x="584" y="330" font-size="18" fill="#1D2430">引力模型 vs 辐射模型<tspan x="584" dy="26">（中间机会）：降雨是否</tspan><tspan x="584" dy="26">缩小“有效机会半径”？</tspan></text>
+    <text x="924" y="330" font-size="18" fill="#1D2430">需要：一个机制模型，<tspan x="924" dy="26">推出 Δγ ≈ 0.02 的量级</tspan></text>
+    <line x1="72" y1="520" x2="1224" y2="520" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="444" font-size="24" font-weight="bold" fill="#D9622B">Q3</text>
+    <text x="84" y="474" font-size="18" font-weight="bold" fill="#1D2430">数据塌缩</text>
+    <text x="284" y="442" font-size="18" fill="#1D2430">本地分位数重标度后，<tspan x="284" dy="26">干湿差距缩小但不消失</tspan><tspan x="284" dy="26">（P95–P99：−3.4% vs −1.4%）</tspan></text>
+    <text x="584" y="442" font-size="18" fill="#1D2430">以 P99、重现期或标准化<tspan x="584" dy="26">距平为标度变量，看各城</tspan><tspan x="584" dy="26">剂量-响应能否塌缩</tspan></text>
+    <text x="924" y="442" font-size="18" fill="#1D2430">需要：选对标度变量；<tspan x="924" dy="26">现有数据即可起步</tspan></text>
+    <line x1="72" y1="632" x2="1224" y2="632" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="556" font-size="24" font-weight="bold" fill="#D9622B">Q4</text>
+    <text x="84" y="586" font-size="18" font-weight="bold" fill="#1D2430">线性响应与涨落</text>
+    <text x="284" y="554" font-size="18" fill="#1D2430">自发涨落 σ ≈ 0.35，<tspan x="284" dy="26">远大于暴雨平均响应</tspan><tspan x="284" dy="26">（−0.04）</tspan></text>
+    <text x="584" y="554" font-size="18" fill="#1D2430">线性响应；涨落-耗散类比；<tspan x="584" dy="26">敏感度在连接间的分布</tspan><tspan x="584" dy="26">是否重尾？</tspan></text>
+    <text x="924" y="554" font-size="18" fill="#1D2430">需要：连接层面的<tspan x="924" dy="26">响应估计</tspan></text>
+  </g>
+  <g id="takeaway" data-pptx-bounds="72 638 1152 38">
+    <rect x="72" y="640" width="4" height="26" fill="#D9622B" />
+    <text x="88" y="660" font-size="20" fill="#1D2430">Q1–Q4 都能用现有数据起步，只有 Q1 需要补人口数据</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">18 / 21</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="toc" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">开场</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">今天想和老师聊三件事</text>
+  </g>
+  <g id="p02-stage-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="72 236 360 212" data-pptx-av-adj="val 22000" fill="#F3F5F7" stroke="none">
+<path d="M 72 236 L 385.36 236 L 432 342 L 385.36 448 L 72 448 Z" />
+</g>
+  <g id="p02-stage-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="468 236 360 212" data-pptx-av-adj="val 22000" fill="#F3F5F7" stroke="none">
+<path d="M 468 236 L 781.36 236 L 828 342 L 781.36 448 L 468 448 Z" />
+</g>
+  <g id="p02-stage-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="864 236 360 212" data-pptx-av-adj="val 22000" fill="#D9622B" stroke="none">
+<path d="M 864 236 L 1177.36 236 L 1224 342 L 1177.36 448 L 864 448 Z" />
+</g>
+  <g id="stage-1-text" data-pptx-bounds="92 252 290 184">
+    <text x="96" y="288" font-size="30" font-weight="bold" fill="#1F3A5F">1</text>
+    <text x="96" y="328" font-size="24" font-weight="bold" fill="#1D2430">两个数据与六个发现</text>
+    <text fill="#1D2430" font-size="18" x="96" y="364">数据、样本、识别策略；</text><text fill="#1D2430" font-size="18" x="96" y="390">剂量-响应、距离、气候、</text><text fill="#1D2430" font-size="18" x="96" y="416">动态、台风、年度损失</text></g>
+  <g id="stage-2-text" data-pptx-bounds="488 252 290 184">
+    <text x="492" y="288" font-size="30" font-weight="bold" fill="#2E7FB8">2</text>
+    <text x="492" y="328" font-size="24" font-weight="bold" fill="#1D2430">三个统计物理初探</text>
+    <text fill="#1D2430" font-size="18" x="492" y="364">距离衰减指数 γ、</text><text fill="#1D2430" font-size="18" x="492" y="390">涨落分布、</text><text fill="#1D2430" font-size="18" x="492" y="416">城市“磁化率”</text></g>
+  <g id="stage-3-text" data-pptx-bounds="884 252 290 184" fill="#FFFFFF">
+    <text x="888" y="288" font-size="30" font-weight="bold">3</text>
+    <text x="888" y="328" font-size="24" font-weight="bold">七个候选问题</text>
+    <text font-size="18" x="888" y="364">请老师判断：哪些值得做、</text><text font-size="18" x="888" y="390">用什么方法、</text><text font-size="18" x="888" y="416">还缺什么数据</text></g>
+  <g id="time-budget" data-pptx-bounds="72 468 1152 36" font-size="18">
+    <text x="96" y="492" fill="#5B6573">约 12 分钟</text>
+    <text x="492" y="492" fill="#5B6573">约 8 分钟</text>
+    <text x="888" y="492" font-weight="bold" fill="#D9622B">约 15 分钟 · 重点</text>
+  </g>
+  <g id="context-note" data-pptx-bounds="72 548 1152 90">
+    <line x1="72" y1="556" x2="1224" y2="556" stroke="#D5DAE0" stroke-width="1" />
+    <text x="72" y="604" font-size="24" fill="#1D2430">之前微信里说“把这个结果整理整理后再详细跟您汇报”——这就是那次汇报。</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">02 / 21</text>
+  </g>
+</svg>

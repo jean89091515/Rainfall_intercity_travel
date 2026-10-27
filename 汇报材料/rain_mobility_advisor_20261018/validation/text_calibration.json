@@ -1,0 +1,74 @@
+{
+  "roles": {
+    "body": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 22.0,
+      "cjk_chars_per_100px": 4.3,
+      "latin_chars_per_100px": 8.8,
+      "longest_planned_line": {
+        "px": 5766.6,
+        "slide": "P18",
+        "text": "Q1 现象：敏感度几乎与流动规模无关 / 框架：城市标度律 Y ∝ N^β，比…"
+      }
+    },
+    "title": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 38.0,
+      "cjk_chars_per_100px": 2.5,
+      "latin_chars_per_100px": 5.1,
+      "longest_planned_line": {
+        "px": 981.0,
+        "slide": "P04",
+        "text": "两个主数据：逐日 OD 流量 + 站点位置的再分析降水"
+      }
+    },
+    "subtitle": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 30.0,
+      "cjk_chars_per_100px": 3.1,
+      "latin_chars_per_100px": 6.5,
+      "longest_planned_line": {
+        "px": 1545.5,
+        "slide": "P01",
+        "text": "日常降雨每年让中国城际出行少约 9.5 亿人次——这种“弱而普遍的外场”能否用…"
+      }
+    },
+    "annotation": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 18.0,
+      "cjk_chars_per_100px": 5.2,
+      "latin_chars_per_100px": 10.8,
+      "longest_planned_line": null
+    },
+    "cover_title": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 48.0,
+      "cjk_chars_per_100px": 2.0,
+      "latin_chars_per_100px": 4.0,
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 14.0,
+      "cjk_chars_per_100px": 6.7,
+      "latin_chars_per_100px": 13.9,
+      "longest_planned_line": null
+    },
+    "hero": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 64.0,
+      "cjk_chars_per_100px": 1.5,
+      "latin_chars_per_100px": 3.0,
+      "longest_planned_line": null
+    },
+    "lead": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 24.0,
+      "cjk_chars_per_100px": 3.9,
+      "latin_chars_per_100px": 8.1,
+      "longest_planned_line": null
+    }
+  },
+  "source": "spec_lock.md",
+  "generated_at": "2026-10-18T15:05:45Z"
+}

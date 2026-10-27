@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">02 六个实证发现 · 1/6</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">流量随雨强平滑下降，终点下雨影响略大</text>
+  </g>
+  <g id="q-tag" data-pptx-bounds="1000 40 224 32">
+    <text x="1104" y="62" font-size="14" fill="#5B6573" text-anchor="end">对应问题</text>
+    <rect x="1116" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1140" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q3</text>
+    <rect x="1176" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1200" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q4</text>
+  </g>
+  <g id="dose-figure" data-pptx-bounds="72 140 720 476">
+    <image href="../images/fig2_dose_response.png" x="72" y="140" width="720" height="431" preserveAspectRatio="xMidYMid meet" />
+    <text x="72" y="598" font-size="14" fill="#5B6573">非台风日，2023—2025；误差线为起点、终点双向聚类 95% 置信区间</text>
+  </g>
+  <g id="kpi-light" data-pptx-bounds="824 148 400 110">
+    <text x="824" y="210" font-size="64" font-weight="bold" fill="#1F3A5F">−1%</text>
+    <text x="824" y="244" font-size="18" fill="#1D2430">小雨：起点 −0.6%，终点 −1.0%</text>
+  </g>
+  <g id="kpi-storm" data-pptx-bounds="824 270 400 110">
+    <text x="824" y="332" font-size="64" font-weight="bold" fill="#D9622B">−4% ~ −6%</text>
+    <text x="824" y="366" font-size="18" fill="#1D2430">暴雨：起点 −4.0%，终点 −6.0%</text>
+  </g>
+  <g id="dose-notes" data-pptx-bounds="824 392 400 224">
+    <line x1="824" y1="398" x2="1224" y2="398" stroke="#D5DAE0" stroke-width="1" />
+    <text x="824" y="432" font-size="18" fill="#1D2430">· 中雨 −1.9% / −1.8%，大雨 −2.3% / −3.1%<tspan x="824" dy="28">· ≥100 mm：终点 −8.8%；起点 −5.5% 不显著</tspan><tspan x="824" dy="28">（非台风城市-日只有 50 个）</tspan><tspan x="824" dy="28">· 城市总流出：小雨 −1.9%，暴雨 −6.3%</tspan><tspan x="824" dy="28">· 三向聚类下，除起点 ≥100 mm 外均显著</tspan></text>
+  </g>
+  <g id="physics-hook" data-pptx-bounds="72 624 1152 44">
+    <rect x="72" y="628" width="4" height="32" fill="#D9622B" />
+    <text x="88" y="652" font-size="20" fill="#1D2430"><tspan font-weight="bold" fill="#D9622B">物理视角：</tspan>这是一条光滑的响应函数——降雨像一个外场，流量的响应随场强单调增大</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">07 / 21</text>
+  </g>
+</svg>

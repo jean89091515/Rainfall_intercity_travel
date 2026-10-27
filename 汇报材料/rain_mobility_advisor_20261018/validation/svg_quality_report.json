@@ -1,0 +1,1489 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "5d230c741802da46959b369b3358158d27d1ab7c04c3c55c20a3602a3bd0e347",
+    "file_count": 21,
+    "files": [
+      {
+        "file": "01_封面.svg",
+        "sha256": "04371063fe4af5231c9e58d2831c9e9ab3e0b52aeb2f5442bd37249247dd2903"
+      },
+      {
+        "file": "02_今天聊三件事.svg",
+        "sha256": "b567cfa37914fb205d6ca4621797e1a858e6605bbaa25247510e3171a4ecfa1f"
+      },
+      {
+        "file": "03_研究缺口.svg",
+        "sha256": "806761d55d35c2a982ee16872c05f88309033c0b1b868c5fa5a766b47f5968f2"
+      },
+      {
+        "file": "04_两个数据.svg",
+        "sha256": "d4464fd915697c01bb605bf30405ad3aa20b1aac11aa253e6f2fd328416fbcd3"
+      },
+      {
+        "file": "05_样本.svg",
+        "sha256": "c6b03236aa8218e38e8e3185f6b44e03c8729352b17079be44ed3c8d83e7970c"
+      },
+      {
+        "file": "06_识别策略.svg",
+        "sha256": "165141801aba6c604043055e64b5ff057dbe98cbcd7b08d2d60f1c8b40948468"
+      },
+      {
+        "file": "07_剂量响应.svg",
+        "sha256": "f7b02a2e9cda3fa724b92824762e5713ed2ce528ee3d8b4d403c018690b2cafb"
+      },
+      {
+        "file": "08_距离.svg",
+        "sha256": "0c9077d3cd461f17d08fc716f798724b61181a2a3af5ad2eee9651455ceaae36"
+      },
+      {
+        "file": "09_气候适应.svg",
+        "sha256": "b25d17293b78dfa2c814c19fce8833f9d759634699aee974e3dfe7dacfd21a4a"
+      },
+      {
+        "file": "10_时间动态.svg",
+        "sha256": "fc1968d74249498b49b54059786e9e321a67236ab54039d330c0baf0e897dfb2"
+      },
+      {
+        "file": "11_台风.svg",
+        "sha256": "8e309f4daa4a2581755dad69423aa4cc1ddd17a438d17126520f77c1fc42bdc2"
+      },
+      {
+        "file": "12_年度损失.svg",
+        "sha256": "bb1b731541436c5ecb5c270da463fa4bb0252727dc98f814a1bf0c768b4899c1"
+      },
+      {
+        "file": "13_换一种语言.svg",
+        "sha256": "86909a4f8c83a7740855710c268bd20030896ba5b1d916b7d0565f8172348283"
+      },
+      {
+        "file": "14_初探A_距离衰减.svg",
+        "sha256": "4dd7c6b8fd678468bca0167af4f75eebdad3c70026bbde215f21bd8b935a8cb4"
+      },
+      {
+        "file": "15_初探B_涨落分布.svg",
+        "sha256": "e4d3caadf076501aac75509f577bf8c065a62cd5cda82da8e114c92a564b58a9"
+      },
+      {
+        "file": "16_初探C_城市磁化率.svg",
+        "sha256": "94810420c1bb9b155b48c5782a9abf796d8c851b5846fb122df0249991c69e47"
+      },
+      {
+        "file": "17_七个候选问题.svg",
+        "sha256": "56e6450ee572c51568af74b8398333a2093f025149f9a8528b162f2899c4aa67"
+      },
+      {
+        "file": "18_候选问题详解一.svg",
+        "sha256": "8efa39afcc49c52cb9bd390778d872d85b64fb2d748111b2785589f72b78860b"
+      },
+      {
+        "file": "19_候选问题详解二.svg",
+        "sha256": "1ca9f93238c9766167e7a3b4832dbda07fd50646d42249220a89a480916fb408"
+      },
+      {
+        "file": "20_请老师把关.svg",
+        "sha256": "32482e181d629a961846ac267a0f9242645941b86fe2eae8656e1d0b3f405790"
+      },
+      {
+        "file": "21_下一步.svg",
+        "sha256": "840fdbb073da1768f9c0c895d75bd9b554005a8deb4747331777b6cf15da84ac"
+      }
+    ]
+  },
+  "summary": {
+    "total": 21,
+    "passed": 15,
+    "warnings": 6,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 6,
+      "issues": [
+        {
+          "file": "06_识别策略.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=862, y=394; text='主口径：非台风日（两端 500 km 内…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "08_距离.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：降雨改变的是距离衰减的形状→ …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "09_气候适应.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：部分“数据塌缩”→ Q3；敏感…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "10_时间动态.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：1–2 天弛豫，恢复函数是什么…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "11_台风.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：强而空间相关的扰动（供给侧）→…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "20_请老师把关.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=664, y=604; text='我的初步判断：Q2、Q3 价值高，而且现…'); use supported explicit text positioning when page fit matters"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#DCE3EC": [
+        "01_封面.svg",
+        "21_下一步.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {
+      "168": [
+        "01_封面.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 21,
+    "totals": {
+      "text_elements": 365,
+      "image_placements": 10,
+      "icons": 4,
+      "svg_geometry_elements": 146,
+      "preset_shapes": 3,
+      "page_frame_elements": 52,
+      "marker_uses": 5,
+      "inline_emphasis_runs": 30,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 10,
+      "icons": 2,
+      "presets": 1,
+      "charts": 0,
+      "tables": 2,
+      "formulas": 4,
+      "inline_emphasis_runs": 13,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "geometry_elements": {
+      "circle": 10,
+      "ellipse": 0,
+      "line": 33,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 103
+    },
+    "preset_names": {
+      "homePlate": 3
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 4,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 2
+    },
+    "image_page_max_frame_share_range": [
+      0.3367,
+      0.54
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_封面.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/01_封面.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 3,
+        "contextual_values": {
+          "colors": [
+            "#DCE3EC"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "168": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "04371063fe4af5231c9e58d2831c9e9ab3e0b52aeb2f5442bd37249247dd2903"
+    },
+    {
+      "file": "02_今天聊三件事.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/02_今天聊三件事.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 3,
+            "preset_names": {
+              "homePlate": 3
+            },
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "b567cfa37914fb205d6ca4621797e1a858e6605bbaa25247510e3171a4ecfa1f"
+    },
+    {
+      "file": "03_研究缺口.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/03_研究缺口.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "806761d55d35c2a982ee16872c05f88309033c0b1b868c5fa5a766b47f5968f2"
+    },
+    {
+      "file": "04_两个数据.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/04_两个数据.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 19
+      },
+      "passed": true,
+      "source_sha256": "d4464fd915697c01bb605bf30405ad3aa20b1aac11aa253e6f2fd328416fbcd3"
+    },
+    {
+      "file": "05_样本.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/05_样本.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig1_study_area.png"
+            ],
+            "max_frame_share": 0.3375
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "c6b03236aa8218e38e8e3185f6b44e03c8729352b17079be44ed3c8d83e7970c"
+    },
+    {
+      "file": "06_识别策略.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/06_识别策略.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=862, y=394; text='主口径：非台风日（两端 500 km 内…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 1,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 14
+      },
+      "passed": true,
+      "source_sha256": "165141801aba6c604043055e64b5ff057dbe98cbcd7b08d2d60f1c8b40948468"
+    },
+    {
+      "file": "07_剂量响应.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/07_剂量响应.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig2_dose_response.png"
+            ],
+            "max_frame_share": 0.3367
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "f7b02a2e9cda3fa724b92824762e5713ed2ce528ee3d8b4d403c018690b2cafb"
+    },
+    {
+      "file": "08_距离.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/08_距离.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：降雨改变的是距离衰减的形状→ …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig3_distance.png"
+            ],
+            "max_frame_share": 0.54
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "0c9077d3cd461f17d08fc716f798724b61181a2a3af5ad2eee9651455ceaae36"
+    },
+    {
+      "file": "09_气候适应.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/09_气候适应.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：部分“数据塌缩”→ Q3；敏感…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig4_climate.png"
+            ],
+            "max_frame_share": 0.54
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "b25d17293b78dfa2c814c19fce8833f9d759634699aee974e3dfe7dacfd21a4a"
+    },
+    {
+      "file": "10_时间动态.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/10_时间动态.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：1–2 天弛豫，恢复函数是什么…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig5_dynamics.png"
+            ],
+            "max_frame_share": 0.495
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "fc1968d74249498b49b54059786e9e321a67236ab54039d330c0baf0e897dfb2"
+    },
+    {
+      "file": "11_台风.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/11_台风.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=964, y=614; text='物理视角：强而空间相关的扰动（供给侧）→…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig7_typhoon.png"
+            ],
+            "max_frame_share": 0.495
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "8e309f4daa4a2581755dad69423aa4cc1ddd17a438d17126520f77c1fc42bdc2"
+    },
+    {
+      "file": "12_年度损失.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/12_年度损失.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig6_losses.png"
+            ],
+            "max_frame_share": 0.4
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "bb1b731541436c5ecb5c270da463fa4bb0252727dc98f814a1bf0c768b4899c1"
+    },
+    {
+      "file": "13_换一种语言.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/13_换一种语言.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 11,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 5
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 1,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "86909a4f8c83a7740855710c268bd20030896ba5b1d916b7d0565f8172348283"
+    },
+    {
+      "file": "14_初探A_距离衰减.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/14_初探A_距离衰减.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "scaling_a_distance_decay.png"
+            ],
+            "max_frame_share": 0.47
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 5,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 1,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "4dd7c6b8fd678468bca0167af4f75eebdad3c70026bbde215f21bd8b935a8cb4"
+    },
+    {
+      "file": "15_初探B_涨落分布.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/15_初探B_涨落分布.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "scaling_b_fluctuation.png"
+            ],
+            "max_frame_share": 0.465
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "e4d3caadf076501aac75509f577bf8c065a62cd5cda82da8e114c92a564b58a9"
+    },
+    {
+      "file": "16_初探C_城市磁化率.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/16_初探C_城市磁化率.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "scaling_c_city_susceptibility.png"
+            ],
+            "max_frame_share": 0.47
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 1,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "94810420c1bb9b155b48c5782a9abf796d8c851b5846fb122df0249991c69e47"
+    },
+    {
+      "file": "17_七个候选问题.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/17_七个候选问题.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 28,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 7,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 15,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 28,
+        "tspan_elements": 18
+      },
+      "passed": true,
+      "source_sha256": "56e6450ee572c51568af74b8398333a2093f025149f9a8528b162f2899c4aa67"
+    },
+    {
+      "file": "18_候选问题详解一.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/18_候选问题详解一.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 19
+      },
+      "passed": true,
+      "source_sha256": "8efa39afcc49c52cb9bd390778d872d85b64fb2d748111b2785589f72b78860b"
+    },
+    {
+      "file": "19_候选问题详解二.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/19_候选问题详解二.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 14
+      },
+      "passed": true,
+      "source_sha256": "1ca9f93238c9766167e7a3b4832dbda07fd50646d42249220a89a480916fb408"
+    },
+    {
+      "file": "20_请老师把关.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/20_请老师把关.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=664, y=604; text='我的初步判断：Q2、Q3 价值高，而且现…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 7,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "32482e181d629a961846ac267a0f9242645941b86fe2eae8656e1d0b3f405790"
+    },
+    {
+      "file": "21_下一步.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/53-降雨量和天气的关系/汇报材料/rain_mobility_advisor_20261018/svg_output/21_下一步.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 6,
+        "contextual_values": {
+          "colors": [
+            "#DCE3EC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "840fdbb073da1768f9c0c895d75bd9b554005a8deb4747331777b6cf15da84ac"
+    }
+  ]
+}

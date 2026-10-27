@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">01 为什么做与数据</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">识别：同一条连接，下雨的日子和不下雨的日子比</text>
+  </g>
+  <rect id="formula-field" data-pptx-role="decoration" x="72" y="140" width="1152" height="112" fill="#F3F5F7" />
+  <g id="model-formula" data-pptx-replace-with="formula" data-pptx-x="72" data-pptx-y="146" data-pptx-width="1152" data-pptx-height="100" data-pptx-bounds="72 146 1152 100">
+    <metadata type="application/json">
+      {"latex":"\\ln F_{ijt} = \\sum_{b=1}^{5}\\beta^{O}_{b}\\,\\mathbf{1}[R_{it}\\in b] + \\sum_{b=1}^{5}\\beta^{D}_{b}\\,\\mathbf{1}[R_{jt}\\in b] + \\sum_{c}\\gamma_{c}\\,\\mathbf{1}[A_{it},A_{jt}\\in c] + \\mu_{ij,m(t)} + \\eta_{ij,w(t)} + \\lambda_{t} + \\varepsilon_{ijt}",
+       "display":"block","font_size":22,"color":"#1D2430","align":"center"}
+    </metadata>
+    <text x="648" y="204" text-anchor="middle" font-size="22" fill="#1D2430">ln Fᵢⱼₜ = Σ βᴼ_b 1[Rᵢₜ∈b] + Σ βᴰ_b 1[Rⱼₜ∈b] + Σ γ_c 1[A∈c] + μᵢⱼ,ₘ₍ₜ₎ + ηᵢⱼ,w₍ₜ₎ + λₜ + εᵢⱼₜ</text>
+  </g>
+  <g id="effect-note" data-pptx-bounds="72 260 1152 30">
+    <text x="72" y="282" font-size="18" fill="#5B6573">β 以无雨日为参照；效应报告为 100 × (exp(β) − 1)%；R 为当日降雨分档，A 为前 7 日累计降水分档</text>
+  </g>
+  <g id="col-bins" data-pptx-bounds="72 312 362 360">
+    <rect x="72" y="312" width="362" height="4" fill="#1F3A5F" />
+    <text x="72" y="352" font-size="24" font-weight="bold" fill="#1D2430">降雨怎么分档</text>
+    <text fill="#1D2430" font-size="20" x="72" y="394">国标 GB/T 28592-2012：</text><text fill="#1D2430" font-size="20" x="72" y="426">无雨 · 小雨 0.1–10 · 中雨 10–25</text><text fill="#1D2430" font-size="20" x="72" y="458">大雨 25–50 · 暴雨 50–100</text><text fill="#1D2430" font-size="20" x="72" y="490">≥100 mm（mm/日）</text><text fill="#1D2430" font-size="20" x="72" y="540">另有本地 P75/P90/P95/P99 分档</text><text fill="#1D2430" font-size="20" x="72" y="572">前 7 日累计降水：控制连阴雨</text></g>
+  <g id="col-fe" data-pptx-bounds="467 312 362 360">
+    <rect x="467" y="312" width="362" height="4" fill="#1F3A5F" />
+    <text x="467" y="352" font-size="24" font-weight="bold" fill="#1D2430">固定效应吸收什么</text>
+    <text fill="#1D2430" font-size="20" x="467" y="394">连接 × 年月 → 季节与趋势</text><text fill="#1D2430" font-size="20" x="467" y="426">连接 × 星期 → 通勤与周末</text><text fill="#1D2430" font-size="20" x="467" y="458"><tspan>日期 → 节假日、春运、k<tspan baseline-shift="sub" font-size="14">t</tspan></tspan></text><text fill="#1D2430" font-size="20" x="467" y="508">剩下的逐日降雨变化</text><text fill="#1D2430" font-size="20" x="467" y="540">近似随机——这是识别来源</text></g>
+  <g id="col-inference" data-pptx-bounds="862 312 362 360">
+    <rect x="862" y="312" width="362" height="4" fill="#D9622B" />
+    <text x="862" y="352" font-size="24" font-weight="bold" fill="#1D2430">口径、推断与稳健性</text>
+    <text fill="#1D2430" font-size="20" x="862" y="394"><tspan font-weight="bold" fill="#D9622B">主口径：</tspan>非台风日</text><text fill="#1D2430" font-size="20" x="862" y="426">（两端 500 km 内无气旋）</text><text fill="#1D2430" font-size="20" x="862" y="458">2807 万观测</text><text fill="#1D2430" font-size="20" x="862" y="508">起点 + 终点双向聚类；</text><text fill="#1D2430" font-size="20" x="862" y="540">30% 样本上加日期三向聚类</text><text fill="#1D2430" font-size="20" x="862" y="572">PPML、连接×周 FE、台风</text><text fill="#1D2430" font-size="20" x="862" y="604">半径 300 km、去掉前期降水</text></g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">06 / 21</text>
+  </g>
+</svg>

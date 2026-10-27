@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#1F3A5F" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#5B6573">01 为什么做与数据</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">降雨如何影响“城市之间”的出行，还缺全国证据</text>
+  </g>
+  <g id="stream-a" data-pptx-bounds="72 148 560 212">
+    <rect x="72" y="148" width="560" height="212" fill="#F3F5F7" />
+    <text x="100" y="186" font-size="18" font-weight="bold" fill="#2E7FB8">已有研究 A</text>
+    <text x="100" y="224" font-size="24" font-weight="bold" fill="#1D2430">日常天气 × 城市内部出行</text>
+    <text x="100" y="268" font-size="22" fill="#1D2430">公交、出租、骑行；多为单城市、单交通方式</text>
+    <text x="100" y="326" font-size="22" fill="#1D2430"><tspan font-weight="bold" fill="#D9622B">局限：</tspan>只看城内，不看城市之间</text>
+  </g>
+  <g id="stream-b" data-pptx-bounds="664 148 560 212">
+    <rect x="664" y="148" width="560" height="212" fill="#F3F5F7" />
+    <text x="692" y="186" font-size="18" font-weight="bold" fill="#2E7FB8">已有研究 B</text>
+    <text x="692" y="224" font-size="24" font-weight="bold" fill="#1D2430">极端事件 × 人类移动韧性</text>
+    <text x="692" y="268" font-size="22" fill="#1D2430">飓风 Sandy、2021 郑州暴雨、台风“玛娃”</text>
+    <text x="692" y="326" font-size="22" fill="#1D2430"><tspan font-weight="bold" fill="#D9622B">局限：</tspan>一次一个事件，看不到普通降雨</text>
+  </g>
+  <g id="gap-field" data-pptx-bounds="72 384 1152 236">
+    <rect x="72" y="384" width="1152" height="236" fill="none" stroke="#1F3A5F" stroke-width="2" />
+    <rect x="72" y="384" width="1152" height="6" fill="#1F3A5F" />
+    <text x="96" y="432" font-size="24" font-weight="bold" fill="#1F3A5F">本研究补的缺口：城市之间 × 日常降雨</text>
+    <g id="gap-1">
+      <text x="96" y="484" font-size="24" font-weight="bold" fill="#D9622B">1</text>
+      <text x="96" y="524" font-size="22" fill="#1D2430">普通小雨中雨的<tspan x="96" dy="32">累计影响</tspan></text>
+    </g>
+    <g id="gap-2">
+      <text x="322" y="484" font-size="24" font-weight="bold" fill="#D9622B">2</text>
+      <text x="322" y="524" font-size="22" fill="#1D2430">起点下雨 vs<tspan x="322" dy="32">终点下雨</tspan></text>
+    </g>
+    <g id="gap-3">
+      <text x="548" y="484" font-size="24" font-weight="bold" fill="#D9622B">3</text>
+      <text x="548" y="524" font-size="22" fill="#1D2430">远近不同，<tspan x="548" dy="32">交通方式不同</tspan></text>
+    </g>
+    <g id="gap-4">
+      <text x="774" y="484" font-size="24" font-weight="bold" fill="#D9622B">4</text>
+      <text x="774" y="524" font-size="22" fill="#1D2430">南北气候差异：<tspan x="774" dy="32">同样的雨一样吗</tspan></text>
+    </g>
+    <g id="gap-5">
+      <text x="1000" y="484" font-size="24" font-weight="bold" fill="#D9622B">5</text>
+      <text x="1000" y="524" font-size="22" fill="#1D2430">台风与普通降雨<tspan x="1000" dy="32">没有分开</tspan></text>
+    </g>
+  </g>
+  <g id="window-note" data-pptx-bounds="72 636 1152 40">
+    <text x="72" y="662" font-size="18" fill="#5B6573"><tspan font-weight="bold" fill="#1F3A5F">时间窗口：</tspan>DIMNet-CPC 2026 年 9 月刚在 Scientific Data 发表，全国逐日城际 OD 第一次可用</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">03 / 21</text>
+  </g>
+</svg>

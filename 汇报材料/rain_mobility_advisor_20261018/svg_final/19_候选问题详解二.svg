@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#D9622B" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#D9622B">04 想请教老师的问题</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">候选问题详解（二）：网络、弛豫、频率-强度</text>
+  </g>
+  <g id="questions-2" data-pptx-replace-with="table" data-pptx-bounds="72 140 1152 464" data-pptx-fallback-sha256="37862550eac63a4005bdde1e061d9c4c2039e83c9ef869446351ee047a73ff87">
+    <metadata type="application/json">{"schema": "ppt-master.semantic-table.v2", "name": "questions-2", "x": 72, "y": 140, "width": 1152, "height": 464, "strict_grid": true, "column_widths": [200, 300, 340, 312], "row_heights": [44, 140, 140, 140], "style": {"font_family": "Microsoft YaHei", "font_size": 18, "header_font_size": 18, "band_row": false, "valign": "top", "padding": {"left": 12, "right": 12, "top": 8, "bottom": 8}}, "defaults": {"cell": {"color": "#1D2430", "borders": {"left": {"style": "none"}, "right": {"style": "none"}, "top": {"style": "none"}, "bottom": {"style": "solid", "color": "#D5DAE0", "width": 1}}}}, "cell_styles": {"head": {"fill": "#1F3A5F", "color": "#FFFFFF", "bold": true, "valign": "middle"}}, "columns": [{"text": "问题", "cell_style": "head", "align": "l"}, {"text": "现象与已有证据", "cell_style": "head", "align": "l"}, {"text": "可能的物理框架", "cell_style": "head", "align": "l"}, {"text": "需要的数据或方法", "cell_style": "head", "align": "l"}], "rows": [[{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q5", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "空间关联与网络", "bold": true, "color": "#1D2430"}]}]}, {"text": "降雨场空间相关强，同一天很多城市同时下雨；台风是强相关扰动"}, {"text": "网络上的相关扰动：渗流、巨连通分量、向第三方城市的级联"}, {"text": "需要：逐日网络重构、降雨场的空间相关长度"}], [{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q6", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "弛豫动力学", "bold": true, "color": "#1D2430"}]}]}, {"text": "扰动后 1–2 天恢复，没有反弹（取消而非推迟）"}, {"text": "弛豫函数：指数型还是幂律型？联系 Wang &amp; Taylor：扰动下移动规律仍保持"}, {"text": "需要：按降雨事件对齐的恢复曲线"}], [{"color": "#D9622B", "paragraphs": [{"align": "l", "runs": [{"text": "Q7", "bold": true, "font_size": 24}]}, {"align": "l", "runs": [{"text": "频率–强度统计", "bold": true, "color": "#1D2430"}]}]}, {"text": "小雨中雨占非台风日损失的 86%；台风是少数大扰动"}, {"text": "类 G-R 律：“强度—频率—损失”统一描述；损失分布有无幂律尾？"}, {"text": "需要：事件层面的损失分布"}]]}</metadata>
+    <rect x="72" y="140" width="1152" height="44" fill="#1F3A5F" />
+    <text x="84" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">问题</text>
+    <text x="284" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">现象与已有证据</text>
+    <text x="584" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">可能的物理框架</text>
+    <text x="924" y="169" font-size="18" font-weight="bold" fill="#FFFFFF">需要的数据或方法</text>
+    <line x1="72" y1="324" x2="1224" y2="324" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="220" font-size="24" font-weight="bold" fill="#D9622B">Q5</text>
+    <text x="84" y="250" font-size="18" font-weight="bold" fill="#1D2430">空间关联与网络</text>
+    <text fill="#1D2430" font-size="18" x="284" y="218">降雨场空间相关强，</text><text fill="#1D2430" font-size="18" x="284" y="244">同一天很多城市同时下雨；</text><text fill="#1D2430" font-size="18" x="284" y="270">台风是强相关扰动</text><text fill="#1D2430" font-size="18" x="584" y="218">网络上的相关扰动：渗流、</text><text fill="#1D2430" font-size="18" x="584" y="244">巨连通分量、向第三方</text><text fill="#1D2430" font-size="18" x="584" y="270">城市的级联</text><text fill="#1D2430" font-size="18" x="924" y="218">需要：逐日网络重构、</text><text fill="#1D2430" font-size="18" x="924" y="244">降雨场的空间相关长度</text><line x1="72" y1="464" x2="1224" y2="464" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="360" font-size="24" font-weight="bold" fill="#D9622B">Q6</text>
+    <text x="84" y="390" font-size="18" font-weight="bold" fill="#1D2430">弛豫动力学</text>
+    <text fill="#1D2430" font-size="18" x="284" y="358">扰动后 1–2 天恢复，</text><text fill="#1D2430" font-size="18" x="284" y="384">没有反弹（取消而非推迟）</text><text fill="#1D2430" font-size="18" x="584" y="358">弛豫函数：指数型还是</text><text fill="#1D2430" font-size="18" x="584" y="384">幂律型？联系 Wang &amp; Taylor：</text><text fill="#1D2430" font-size="18" x="584" y="410">扰动下移动规律仍保持</text><text fill="#1D2430" font-size="18" x="924" y="358">需要：按降雨事件对齐的</text><text fill="#1D2430" font-size="18" x="924" y="384">恢复曲线</text><line x1="72" y1="604" x2="1224" y2="604" stroke="#D5DAE0" stroke-width="1" />
+    <text x="84" y="500" font-size="24" font-weight="bold" fill="#D9622B">Q7</text>
+    <text x="84" y="530" font-size="18" font-weight="bold" fill="#1D2430">频率–强度统计</text>
+    <text fill="#1D2430" font-size="18" x="284" y="498">小雨中雨占非台风日损失</text><text fill="#1D2430" font-size="18" x="284" y="524">的 86%；台风是少数</text><text fill="#1D2430" font-size="18" x="284" y="550">大扰动</text><text fill="#1D2430" font-size="18" x="584" y="498">类 G-R 律：“强度—频率—</text><text fill="#1D2430" font-size="18" x="584" y="524">损失”统一描述；损失</text><text fill="#1D2430" font-size="18" x="584" y="550">分布有无幂律尾？</text><text fill="#1D2430" font-size="18" x="924" y="498">需要：事件层面的</text><text fill="#1D2430" font-size="18" x="924" y="524">损失分布</text></g>
+  <g id="takeaway" data-pptx-bounds="72 610 1152 66">
+    <rect x="72" y="612" width="4" height="26" fill="#D9622B" />
+    <text x="88" y="632" font-size="20" fill="#1D2430">Q5–Q7 方法上更“物理”，但需要更多建模工作</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流</text>
+    <text x="1224" y="700" text-anchor="end">19 / 21</text>
+  </g>
+</svg>

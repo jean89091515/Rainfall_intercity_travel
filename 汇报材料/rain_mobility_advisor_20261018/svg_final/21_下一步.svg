@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="ending" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="message-field" data-pptx-role="decoration" x="0" y="0" width="520" height="720" fill="#1F3A5F" />
+  <g id="closing-message" data-pptx-bounds="56 180 424 360">
+    <text x="64" y="232" font-size="18" font-weight="bold" fill="#DCE3EC">05 下一步</text>
+    <rect x="64" y="262" width="56" height="4" fill="#D9622B" />
+    <text fill="#FFFFFF" font-size="30" font-weight="bold" x="64" y="324">降雨是一个弱而普遍的</text><text fill="#FFFFFF" font-size="30" font-weight="bold" x="64" y="370">外场——</text><text fill="#FFFFFF" font-size="30" font-weight="bold" x="64" y="416">想把它的规律</text><text fill="#FFFFFF" font-size="30" font-weight="bold" x="64" y="462">用物理的语言讲清楚</text></g>
+  <g id="next-steps" data-pptx-bounds="568 150 656 500">
+    <line x1="600" y1="196" x2="600" y2="548" stroke="#D5DAE0" stroke-width="2" />
+    <g id="step-1">
+      <circle cx="600" cy="196" r="14" fill="#1F3A5F" />
+      <text x="636" y="204" font-size="24" font-weight="bold" fill="#1F3A5F">近期</text>
+      <text fill="#1D2430" font-size="22" x="636" y="244">补气温控制和雨量计数据稳健性，</text><text fill="#1D2430" font-size="22" x="636" y="278">完善 TR Part D 实证稿</text></g>
+    <g id="step-2">
+      <circle cx="600" cy="372" r="14" fill="#D9622B" />
+      <text x="636" y="380" font-size="24" font-weight="bold" fill="#D9622B">按老师意见</text>
+      <text fill="#1D2430" font-size="22" x="636" y="420">挑 1–2 个标度律 / 统计物理问题，</text><text fill="#1D2430" font-size="22" x="636" y="454">先做最小可行分析</text></g>
+    <g id="step-3">
+      <circle cx="600" cy="548" r="14" fill="#2E7FB8" />
+      <text x="636" y="556" font-size="24" font-weight="bold" fill="#2E7FB8">之后</text>
+      <text fill="#1D2430" font-size="22" x="636" y="596">再定论文定位与投稿方向，</text><text fill="#1D2430" font-size="22" x="636" y="630">下次组会汇报</text></g>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="568 680 656 28">
+    <text x="1224" y="700" font-size="14" fill="#5B6573" text-anchor="end">21 / 21</text>
+  </g>
+</svg>

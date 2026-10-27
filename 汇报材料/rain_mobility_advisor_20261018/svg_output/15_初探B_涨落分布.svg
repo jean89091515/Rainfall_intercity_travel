@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="section-band" data-pptx-role="decoration" x="0" y="0" width="8" height="720" fill="#2E7FB8" />
+  <g id="section-label" data-pptx-bounds="72 40 640 30">
+    <text x="72" y="62" font-size="18" font-weight="bold" fill="#2E7FB8">03 用统计物理语言重看 · 初探 B</text>
+  </g>
+  <g id="page-title" data-pptx-bounds="72 76 1152 56">
+    <text x="72" y="112" font-size="38" font-weight="bold" fill="#1F3A5F">初探 B：降雨是一个很弱的外场</text>
+  </g>
+  <g id="q-tag" data-pptx-bounds="1000 40 224 32">
+    <text x="1164" y="62" font-size="14" fill="#5B6573" text-anchor="end">对应问题</text>
+    <rect x="1176" y="42" width="48" height="28" fill="none" stroke="#D9622B" stroke-width="1.5" />
+    <text x="1200" y="62" font-size="18" font-weight="bold" fill="#D9622B" text-anchor="middle">Q4</text>
+  </g>
+  <g id="fluct-figure" data-pptx-bounds="72 136 1152 404">
+    <image href="../images/scaling_b_fluctuation.png" x="72" y="136" width="1152" height="372" preserveAspectRatio="xMidYMid meet" />
+    <text x="72" y="532" font-size="18" fill="#5B6573">ε：去掉连接×年月、全国日期、连接×星期均值后的逐日对数偏差；分布中心呈指数型尾部（对数坐标下近似三角形）</text>
+  </g>
+  <line id="band-rule" data-pptx-role="decoration" x1="72" y1="548" x2="1224" y2="548" stroke="#D5DAE0" stroke-width="1" />
+  <g id="hero-sigma" data-pptx-bounds="72 554 240 122">
+    <text x="72" y="622" font-size="64" font-weight="bold" fill="#1F3A5F">0.35</text>
+    <text x="72" y="654" font-size="18" fill="#1D2430">σ：自发涨落的标准差</text>
+  </g>
+  <g id="hero-shift" data-pptx-bounds="336 554 240 122">
+    <text x="336" y="622" font-size="64" font-weight="bold" fill="#D9622B">−0.04</text>
+    <text x="336" y="654" font-size="18" fill="#1D2430">暴雨及以上的平均位移</text>
+  </g>
+  <g id="hero-snr" data-pptx-bounds="600 554 240 122">
+    <text x="600" y="622" font-size="64" font-weight="bold" fill="#1F3A5F">≈0.1</text>
+    <text x="600" y="654" font-size="18" fill="#1D2430">信噪比</text>
+  </g>
+  <g id="tail-note" data-pptx-bounds="864 554 360 122">
+    <rect x="864" y="562" width="4" height="102" fill="#D9622B" />
+    <text x="880" y="586" font-size="18" fill="#1D2430">P(下降 &gt; 30%)：两端无雨 10.3%<tspan x="880" dy="28">→ 暴雨及以上 12.5%</tspan><tspan x="880" dy="28">更大的下降（&gt;45%）无雨日</tspan><tspan x="880" dy="28">一样多，多来自节假日等冲击</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="72 680 1152 28" fill="#5B6573" font-size="14">
+    <text x="72" y="700">降雨与中国城际人口流动 · 导师交流 · 初探，未经推敲</text>
+    <text x="1224" y="700" text-anchor="end">15 / 21</text>
+  </g>
+</svg>
